@@ -1,0 +1,55 @@
+.abdul-portfolio{
+    padding: 2em;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: .5em;
+    
+}
+.img-ar{
+    margin-left: 80vh;
+}
+
+.nav-ex{
+    margin: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+
+}
+.nav-ex:hover{
+    color: #b3ff00;
+    text-shadow: #90CAF9 1px 0 10px;
+}
+.nav-edu{
+    margin: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+
+
+}
+.nav-edu:hover{
+    color: #b3ff00;
+    text-shadow: #90CAF9 1px 0 10px;
+}
+.nav-skills{
+    margin: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+        color: white;
+
+
+}
+.nav-skills:hover{
+    color: #b3ff00;
+    text-shadow: #90CAF9 1px 0 10px;
+}
