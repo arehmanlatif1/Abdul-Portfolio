@@ -1,31 +1,82 @@
-.navbar{
-    background-color: #2196f3;
-    width: 100%;
-    text-align: center;
+.nav-container {
+  background-color: #312ef9;
+  width: 100%;
+  color: white;
 }
-.nav-name{
-    text-decoration: none;
-    font-size: 2rem;
-    color: white;
-    font-weight: 900;
-    font-family: Autography-DOLnW;
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.nav-name {
+  text-decoration: none;
+  color: white;
+  font-family: Autography-DOLnW;
+  display: flex;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
 }
 @font-face {
-    font-family: Autography-DOLnW;
-    src: url(../../../public/Fonts/Autography-DOLnW.otf);
+  font-family: Autography-DOLnW;
+  src: url(../../../public/Fonts/Autography-DOLnW.otf);
 }
-.nav-name:hover{
-    color: #b3ff00;
-    text-shadow: #90CAF9 1px 0 10px;
+.nav-name:hover {
+  color: #b3ff00;
+  text-shadow: #90caf9 1px 0 10px;
 }
-.nav-contact{
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-    font-family: Lugrasimo-Regular;
+.icon-right {
+  transform: rotate(90deg);
+  height: 30px;
+  margin: 0 5px;
 }
-.nav-contact:hover{
-    color: #b3ff00;
-    text-shadow: #90CAF9 1px 0 10px;
+.icon-left:hover {
+  color: #b3ff00;
+  text-shadow: #90caf9 1px 0 10px;
+}
+.icon-left {
+  transform: rotate(90deg);
+  height: 30px;
+  margin: 0 5px;
+}
+nav ul li {
+  margin: 0 10px;
+  list-style-type: none;
+  display: inline;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-family: Lugrasimo-Regular;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.nav-contact {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: Lugrasimo-Regular;
+  padding: 5px 15px;
+}
+.nav-contact:hover {
+  color: #b3ff00;
+  text-shadow: #90caf9 1px 0 10px;
+}
+
+.nav-link:hover {
+  color: #b3ff00;
+  text-shadow: #90caf9 1px 0 10px;
+}
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
 }

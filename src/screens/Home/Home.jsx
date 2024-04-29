@@ -5,11 +5,15 @@ import Skills from "../../components/Skills/Skills.jsx";
 import Project from "../../components/Projects/Project.jsx";
 import abdul from "../../Icons/ar.jpeg";
 import "./Home.css";
+import Navbar from "../../components/Navbar/Navbar.jsx";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="home-container">
       <div className="abdul-portfolio">
+      <div className="content">
+        <h2> Who am I?</h2>
         <h2 className="home-ar">ᗩᗷᗪᑌᒪ ᖇEᕼᗰᗩᑎ</h2>
         <p className="summary">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veniam
@@ -17,25 +21,29 @@ function Home() {
           natus doloremque molestiae repudiandae nulla sunt quas nesciunt enim
           laborum.
         </p>
+        </div>
         <img className="img-ar" src={abdul} alt="ar" />
       </div>
+
+
+
       <section className="section-skills">
-        <div className="skills">
+        <div className="skills" id="skills">
           <Skills />
         </div>
       </section>
       <section className="section-ex">
-        <div className="div-ex">
+        <div className="div-ex" id="experience">
           <Experience />
         </div>
       </section>
       <section className="section-edu">
-        <div className="div-edu">
+        <div className="div-edu" id="education">
           <Education />
         </div>
       </section>
       <section className="section-project">
-        <div className="div-project">
+        <div className="div-project" id="project">
           <Project />
         </div>
       </section>

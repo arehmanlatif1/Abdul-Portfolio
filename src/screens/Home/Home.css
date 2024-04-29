@@ -1,14 +1,32 @@
 .abdul-portfolio{
-    padding: 2em;
-    margin-top: 40px;
-    background-color: rgba(0, 0, 0, 0.1);
     display: flex;
-    border-radius: .5em;
-    
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 50rem;
+    background-color: rgba(151, 154, 227, 0.1);
+    margin-top: 20px;
+    width: 80%;
+    height: 40%;    
 }
 .img-ar{
-    margin-left: 80vh;
+    position: relative;
+    width: 40%;
+    height: 40%;
 }
+.content {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+}
+.summary{
+    font-size: 1em;
+    font-weight: 300;
+}
+
 
 .nav-ex{
     margin: 50px;
