@@ -4,7 +4,7 @@
     justify-content: space-between;
     position: relative;
     height: 50rem;
-    background-color: rgba(151, 154, 227, 0.1);
+    background-color: rgba(0, 8, 233, 0.1);
     margin-top: 20px;
     width: 80%;
     height: 40%;    
@@ -13,21 +13,34 @@
     position: relative;
     width: 40%;
     height: 40%;
+    margin-left: auto;
+
 }
 .content {
-
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(168, 163, 163, 0.5);
     padding: 20px;
     width: 50%;
-    margin-left: auto;
+    margin-left: 30px;
 }
-.summary{
-    font-size: 1em;
-    font-weight: 300;
+.resume-btn {
+    padding: 15px 20px; 
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 15px; 
+    font-weight: 700;
+    color: #fff; 
+    background-color: #3000cc; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
 }
 
+.resume-btn:hover {
+    background-color: #0056b3;
 
+}
 .nav-ex{
     margin: 50px;
     padding-top: 10px;

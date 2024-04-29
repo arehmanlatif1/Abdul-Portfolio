@@ -1,9 +1,9 @@
 import React from "react";
 import Experience from "../../components/Experience/Experience.jsx";
 import Education from "../../components/Education/Education.jsx";
-import Skills from "../../components/Skills/Skills.jsx";
 import Project from "../../components/Projects/Project.jsx";
 import abdul from "../../Icons/ar.jpeg";
+import Skills from "../../components/Skills/Skill.jsx";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import { Link } from "react-router-dom";
@@ -21,8 +21,12 @@ function Home() {
           natus doloremque molestiae repudiandae nulla sunt quas nesciunt enim
           laborum.
         </p>
+        <a href="https://docs.google.com/document/d/1t0FhEagcEJBbntU1log_lJhBaewILPhJ/edit?usp=sharing&ouid=114357877718036734215&rtpof=true&sd=true" target="_blank" download="Resume_Abdul_Rehman.pdf">
+          <button className="resume-btn">My Resume</button>
+       </a>
         </div>
         <img className="img-ar" src={abdul} alt="ar" />
+
       </div>
 
 
