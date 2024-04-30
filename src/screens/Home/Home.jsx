@@ -12,24 +12,30 @@ function Home() {
   return (
     <div className="home-container">
       <div className="abdul-portfolio">
-      <div className="content">
-        <h2> Who am I?</h2>
-        <h2 className="home-ar">ᗩᗷᗪᑌᒪ ᖇEᕼᗰᗩᑎ</h2>
-        <p className="summary">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veniam
-          illum at cum nihil, blanditiis fuga reiciendis deleniti rerum totam
-          natus doloremque molestiae repudiandae nulla sunt quas nesciunt enim
-          laborum.
-        </p>
-        <a href="https://docs.google.com/document/d/1t0FhEagcEJBbntU1log_lJhBaewILPhJ/edit?usp=sharing&ouid=114357877718036734215&rtpof=true&sd=true" target="_blank" download="Resume_Abdul_Rehman.pdf">
-          <button className="resume-btn">My Resume</button>
-       </a>
+        <div className="content">
+          <h2> Who am I?</h2>
+          <h2 className="home-ar">ᗩᗷᗪᑌᒪ ᖇEᕼᗰᗩᑎ</h2>
+          <p className="summary">
+            A highly motivated and detail-oriented software engineer with
+            experience in Web development, social media marketing, and customer
+            service. A recent graduate from General Assembly with Bootcamp in
+            Software Engineer Full Stack Developer, I am well-versed in various
+            programming languages, including HTML, CSS, and JavaScript, React. I
+            am a quick learner and highly adaptable, with a strong drive to
+            continuously improve my skills and knowledge.
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1t0FhEagcEJBbntU1log_lJhBaewILPhJ/edit?usp=sharing&ouid=114357877718036734215&rtpof=true&sd=true"
+            target="_blank"
+            download="Resume_Abdul_Rehman.pdf"
+          >
+            <button className="resume-btn">My Resume</button>
+          </a>
         </div>
         <img className="img-ar" src={abdul} alt="ar" />
-
+       
       </div>
-
-
+      <hr className="animated" />
 
       <section className="section-skills">
         <div className="skills" id="skills">

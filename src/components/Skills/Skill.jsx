@@ -12,6 +12,7 @@ import "./Skill.css";
 function Skills() {
   return (
     <div className="skills-main">
+
     <h3 className="tab-header">Skills</h3>
     <div className="skills-container">
         <div className="skills-slider">

@@ -3,22 +3,20 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    height: 50rem;
-    background-color: rgba(0, 8, 233, 0.1);
-    margin-top: 20px;
-    width: 80%;
-    height: 40%;    
+    background-color: rgba(0, 17, 148, 0.1);
+    margin-top: 10%;
+    width: 90%;
+    height: 50%;    
 }
 .img-ar{
     position: relative;
     width: 40%;
     height: 40%;
     margin-left: auto;
-
 }
 .content {
-    color: white;
-    background-color: rgba(168, 163, 163, 0.5);
+    color: rgb(0, 0, 0);
+    background-color: rgba(213, 213, 222, 0.5);
     padding: 20px;
     width: 50%;
     margin-left: 30px;
@@ -41,6 +39,17 @@
     background-color: #0056b3;
 
 }
+hr {
+    border: none; 
+    height: 5px;
+    background-color: #ccc;
+    margin: 5rem 6rem 0 0; 
+    transition: background-color 0.3s ease;
+}
+hr:hover{
+    background-color: #0056b3;
+}
+
 .nav-ex{
     margin: 50px;
     padding-top: 10px;
