@@ -2,6 +2,26 @@
     font-family: Lugrasimo-Regular;
     src: url(../../../public/Fonts/Lugrasimo-Regular.ttf);
 }
-.tab-display{
-    font-family: Lugrasimo-Regular;
+.ex-container{
+    background-color: rgb(245, 245, 245);
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.company-name {
+    background-color: rgb(160, 219, 255);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.ex-company{
+    padding: 50px;
+    font-size: 1rem;
+}
+.explore {
+    height: 5rem;
+    margin-top: -45px;
+}
+.title {
+    font-size: 40px;
+    margin: 400px 0 0 0;
 }
