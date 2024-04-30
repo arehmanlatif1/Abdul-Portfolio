@@ -4,8 +4,7 @@
 }
 .skills-main {
     border-width: 1rem;
-    background-color: blue;
-    color:rgb(0, 0, 0);
+    background-image: url(../../Background/skills-background.jpg);
 
 }
 @font-face {
@@ -14,16 +13,17 @@
 }
 .tab-header {
     text-align: center;
+    margin-top: 150px;
     font-size: 50px;
     padding: 0px;
-    font-weight: 900;
     font-family: Oswald-VariableFont_wght;
+    color: white;
 }
 .skills-container {
     overflow: hidden;
     position: relative;
     width: 100%; 
-    height: 150px; 
+    height: 180px; 
     font-family: Roboto-Thin;
 
 
