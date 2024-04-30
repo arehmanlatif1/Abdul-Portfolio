@@ -14,10 +14,12 @@
     font-family: Lugrasimo-Regular;
     color: rgb(0, 0, 0);
     position: relative;
-    background-color: white;
-    padding: 0 10px; 
-    z-index: 1; 
     margin: 12rem 12rem 0 12rem;
+}
+.tab-header span {
+    background-color: rgb(255, 255, 255);
+    padding: 0 10px;
+    z-index: 1; 
 }
 .tab-header::after {
     content: ''; 
@@ -54,7 +56,6 @@
 
 .skillx {
     flex: 0 0 10%;
-    text-align: center;
     margin: 10px; 
     padding: 10px; 
     border-radius: 8px; 
