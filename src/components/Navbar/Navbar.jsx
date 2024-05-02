@@ -16,9 +16,10 @@ function Navbar() {
         <nav>
         <ul>
           <li><a className="nav-link" href="#skills">Skills</a></li>
+          <li><a className="nav-link" href="#project">Project</a></li>
           <li><a className="nav-link" href="#education">Education</a></li>
           <li><a className="nav-link" href="#experience">Experience</a></li>
-          <li><a className="nav-link" href="#project">Project</a></li>
+
         </ul>
       </nav>
         <NavLink className="nav-contact" to="/contact">

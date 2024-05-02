@@ -42,19 +42,21 @@ function Home() {
           <Skills />
         </div>
       </section>
-      <section className="section-ex">
-        <div className="div-ex" id="experience">
-          <Experience />
+      <section className="section-project">
+        <div className="div-project" id="project">
+          <Project />
         </div>
-      </section>
+        </section>
+
       <section className="section-edu">
         <div className="div-edu" id="education">
           <Education />
         </div>
       </section>
-      <section className="section-project">
-        <div className="div-project" id="project">
-          <Project />
+
+      <section className="section-ex">
+        <div className="div-ex" id="experience">
+          <Experience />
         </div>
       </section>
     </div>
