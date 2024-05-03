@@ -1,6 +1,5 @@
 import React from "react";
 import usa from "../../Icons/usa.png";
-import developer from "../../gif-files/giphy7.gif"
 import babyplanet from "../../Icons/babyplanet.pkk.png";
 import explore from "../../Icons/explore.png";
 import "./Experience.css";
@@ -52,8 +51,7 @@ function Experience() {
           </ul>
         </div>
       </div>
-      <img className="ex-image" src={developer} alt="Developer Experience" />
-    </div>
+          </div>
   );
 }
 

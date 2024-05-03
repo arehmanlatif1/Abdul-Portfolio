@@ -1,5 +1,4 @@
 import React from "react";
-import skillgif from "../../gif-files/skillgif.gif";
 import html from "../../Icons/html-icon.png";
 import styling from "../../Icons/css-icon.png";
 import java from "../../Icons/javascript-programming-language-icon.png";
@@ -24,7 +23,6 @@ function Skills() {
           </div>
           <div className="skillx" style={{ backgroundColor: "#e8eaf6" }}>
             <p>
-              <img className="skills-icon" src={styling} alt="CSS" /> CSS
             </p>
           </div>
           <div className="skillx" style={{ backgroundColor: "#e8eaf6" }}>

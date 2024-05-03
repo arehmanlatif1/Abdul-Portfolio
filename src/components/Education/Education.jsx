@@ -1,9 +1,8 @@
 import React from 'react'
 import "./Education.css"
-
 function Education() {
   return (
-    <div>
+    <div className='edu-container'>
       <h2>Education</h2>
       <h3>General Assembly</h3>
             <h2>Software Engineer Immersive</h2>
