@@ -1,12 +1,11 @@
 import React from "react";
 import html from "../../Icons/html-icon.png";
-import styling from "../../Icons/css-icon.png";
 import java from "../../Icons/javascript-programming-language-icon.png";
 import pythons from "../../Icons/python-programming-language-icon.png";
 import django from "../../Icons/django-icon.png";
 import reactjs from "../../Icons/react-js-icon.png";
 import sql from "../../Icons/database-icon.png";
-
+import styling from "../../Icons/css-icon.png"
 import "./Skill.css";
 function Skills() {
   return (
@@ -22,12 +21,14 @@ function Skills() {
             </p>
           </div>
           <div className="skillx" style={{ backgroundColor: "#e8eaf6" }}>
+          <img className="skills-icon" src={styling} alt="HTML" />
+            CSS
             <p>
             </p>
           </div>
           <div className="skillx" style={{ backgroundColor: "#e8eaf6" }}>
             <p>
-              <img className="skills-icon" src={java} alt="JavaScript" />{" "}
+              <img className="skills-icon" src={java} alt="JavaScript" />
               JavaScript
             </p>
           </div>
