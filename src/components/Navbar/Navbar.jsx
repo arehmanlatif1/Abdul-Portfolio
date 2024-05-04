@@ -14,12 +14,11 @@ function Navbar() {
           <img className="icon-left" src={right} alt="icon" />
         </NavLink>
         <nav>
-        <ul>
-          <li><a className="nav-link" href="#skills">Skills</a></li>
-          <li><a className="nav-link" href="#project">Project</a></li>
-          <li><a className="nav-link" href="#education">Education</a></li>
-          <li><a className="nav-link" href="#experience">Experience</a></li>
-
+        <ul className="nav-list">
+          <li className="nav-items"><a className="nav-link" href="#skills">Skills</a></li>
+          <li className="nav-items"><a className="nav-link" href="#project">Project</a></li>
+          <li className="nav-items"><a className="nav-link" href="#education">Education</a></li>
+          <li className="nav-items"><a className="nav-link" href="#experience">Experience</a></li>
         </ul>
       </nav>
         <NavLink className="nav-contact" to="/contact">
