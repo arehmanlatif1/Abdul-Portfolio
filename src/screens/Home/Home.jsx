@@ -4,9 +4,9 @@ import Education from "../../components/Education/Education.jsx";
 import Project from "../../components/Projects/Project.jsx";
 import abdul from "../../Icons/ar.jpeg";
 import Skills from "../../components/Skills/Skill.jsx";
+import button from "../../gif-files/Downcloud.json"
+import Lottie from "lottie-react";
 import "./Home.css";
-import Navbar from "../../components/Navbar/Navbar.jsx";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -29,7 +29,7 @@ function Home() {
             target="_blank"
             download="Resume_Abdul_Rehman.pdf"
           >
-            <button className="resume-btn">My Resume</button>
+            <Lottie animationData={button} className="button" loop={true} style={{width: "15rem", display:"grid",   } } />
           </a>
         </div>
         <img className="img-ar" src={abdul} alt="ar" />
