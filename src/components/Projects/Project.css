@@ -1,23 +1,37 @@
-.section-currency {
+.section-container {
     background-color: rgb(219, 237, 237);
     width: 30vw;
-    height: 50vh;
     margin-left: 30px;
     margin-top: 6rem;
-    padding: 60px 40px 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
 
 }
 
-.app-skills{
-    padding: 0;
+.app-skills li{
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* padding: 0;
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    list-style-type: none;
+    list-style-type: none; */
     
+}
+.app-skills a{
+    width: 3.5m;
+    display: inline;
+}
+.app-img{
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* 
