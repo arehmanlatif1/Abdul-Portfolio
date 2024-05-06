@@ -1,55 +1,59 @@
-
-.section-container {
-    background: #c6bfbf;
-    border-radius: 1em 1em;
-    margin: 5em 0 0em 2em;
-    padding: 2em 3em;
-
-}
-
-.app-skills {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  list-style-type: none;
-  justify-content: space-evenly;
-}
-.app-img {
-  width: 100%;
-  border-radius: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.app-title {
+.project-header {
   text-align: center;
-  font-size: 30px;
-  color: blue;
-}
-.app-description {
-  text-align: center;
-  margin-left: 5rem;
-  width: 70%;
+  margin-top: 150px;
+  font-size: 50px;
+  font-family: Lugrasimo-Regular;
   color: rgb(0, 0, 0);
+  position: relative;
+  margin: 5rem 5rem 5 5rem;
 }
-.site-link {
-  align-items: center;
+.project-header span{
+  background-color: rgb(255, 255, 255);
+  padding: 0 10px;
+  z-index: 1;
+}
+.project-header::after {
+  content: ''; 
+  position: absolute;
+  left: 0; 
+  right: 0;
+  bottom: 50%;
+  height: 2px; 
+  background-color: #000;
+  z-index: -1;
+}
+                              /* Project Title Ends Here  */
+
+
+.project-main{
+  /* background-color: lightcyan; */
   display: flex;
   flex-direction: row;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  list-style-type: none;
-  justify-content: space-evenly;
-}
-.site-item{
-    list-style-type: none;
+  box-shadow: 0 0 0 2px rgb(0, 0, 0); 
 
 }
-.site-item a{
-    text-decoration: none;
-    color: rgb(228, 76, 0);
+.section-container{
+  background-color: antiquewhite;
+  margin: 4rem;
+  border-radius: 1rem;
+  max-width: 100vw;
+  max-height: 50vh;
 }
+.app-img{
+  max-width: 50%;
+}
+.app-skills{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+
+
+
+
+
+
 
 /* CHATGPT */
 
