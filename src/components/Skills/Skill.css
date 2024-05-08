@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family:Roboto-Thin ;
     src: url(../../../public/Fonts/Roboto-Thin.ttf);
 }
@@ -80,5 +80,240 @@
     }
     .skills-slider {
         animation: slide 20s linear infinite; 
+    }
+} */
+
+
+
+
+/* Font Face Declarations */
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../../../public/Fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Lugrasimo-Regular';
+    src: url('../../../public/Fonts/Lugrasimo-Regular.ttf');
+}
+
+/* Header Styling */
+.tab-header {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;  
+    font-family: 'Lugrasimo-Regular';
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin: 12rem auto 10rem;
+    padding: 25px 10px; 
+}
+
+.tab-header span {
+    background-color: rgb(255, 255, 255);
+    z-index: 1; 
+}
+
+.tab-header::after {
+    content: ''; 
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: 50%;
+    height: 2px; 
+    background-color: #000;
+    z-index: -1;
+}
+
+/* Skills Container */
+.skills-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;  
+    font-family: 'Roboto-Thin';
+    background-image: url('../../Background/skills-background.jpg');
+    padding: 2rem;  /* Adjusted from 10rem for more realistic spacing */
+    margin-top: 50px;  /* Reduced for better spacing */
+    background-size: cover;  /* Ensure background covers the container */
+}
+
+/* Skills Slider */
+.skills-slider {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  /* Ensure slider uses full width */
+    animation: slide 30s linear infinite;
+}
+
+.skills-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.skillx {
+    flex: 0 0 auto;  /* Allow flexibility in basis */
+    margin: 20px; 
+    padding: 20px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+}
+
+.skillx:hover {
+    background-color: #ffffff; 
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transform: translateY(-2px); 
+}
+
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}
+
+.skills-container:hover .skills-slider {
+    animation-play-state: paused;
+}
+
+
+/* Base and Global Styles */
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../../../public/Fonts/Roboto-Thin.ttf');
+}
+@font-face {
+    font-family: 'Lugrasimo-Regular';
+    src: url('../../../public/Fonts/Lugrasimo-Regular.ttf');
+}
+
+.tab-header {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    font-family: 'Lugrasimo-Regular';
+    color: rgb(0, 0, 0);
+    position: relative;
+    margin: 12rem auto 0;
+}
+
+.tab-header::after {
+    content: ''; 
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: 50%;
+    height: 2px; 
+    background-color: #000;
+}
+
+.skills-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    font-family: 'Roboto-Thin';
+    background-image: url('../../Background/skills-background.jpg');
+    padding: 2rem;
+    margin-top: 50px;
+    background-size: cover;
+}
+
+.skills-slider {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    animation: slide 30s linear infinite;
+}
+
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}
+
+.skills-container:hover .skills-slider {
+    animation-play-state: paused;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .skills-slider {
+        animation: none; /* Stops the animation */
+        flex-direction: column; /* Skills displayed in a column */
+    }
+
+    .skillx {
+        flex: 0 0 100%; /* Each skill takes full width */
+    }
+}
+
+
+/* Media Queries for Responsive Adjustments */
+@media (max-width: 768px) {
+    .tab-header {
+        margin-top: 10vh;
+        font-size: 30px;  /* Smaller font size for mobile */
+        margin: 8rem auto 0;
+    }
+
+    .skills-slider {
+        flex-direction: column;  /* Stack skills vertically on smaller screens */
+        animation: none;  /* Consider pausing or adjusting animation on small devices */
+    }
+
+    .skillx {
+        flex: 0 0 100%; /* Each skill takes full width */
+    }
+}
+
+.skills-container {
+    overflow: hidden;  
+    position: relative;
+    width: 100%;  
+    font-family: 'Roboto-Thin';
+    border-width: 1rem;
+    background-image: url('../../Background/skills-background.jpg');
+    padding: 10rem 0; 
+    margin-top: 100px;
+    background-size: cover;
+}
+
+.skills-slider {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    animation: slide 30s linear infinite;
+    white-space: nowrap;  
+}
+
+.skillx {
+    flex: 0 0 auto;
+    width: 200px;  
+    margin: 20px; 
+    padding: 20px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;  
+}
+
+@keyframes slide {
+    100% { transform: translateX(-100%); }
+}
+
+/* Corrects the pause on hover issue without affecting layout */
+.skills-container:hover .skills-slider {
+    animation-play-state: paused;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 2rem 0;  
+    }
+
+    .skillx {
+        width: 100%;  
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .skills-slider {
+        flex-direction: column; 
     }
 }
