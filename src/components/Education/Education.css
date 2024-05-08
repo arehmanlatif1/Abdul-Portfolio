@@ -1,0 +1,25 @@
+.edu-header {
+    text-align: center;
+      margin-top: 150px;
+      font-size: 50px;  
+      font-family: 'Lugrasimo-Regular';
+      color: rgb(0, 0, 0);
+      position: relative;
+      margin: 12rem auto 0; 
+      padding: 0 10px;  
+  }
+  .edu-header span {
+    background-color: rgb(255, 255, 255);
+    padding: 0 10px;
+    z-index: 1; 
+  }
+  .edu-header::after {
+    content: ''; 
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: 50%;
+    height: 2px; 
+    background-color: #000;
+    z-index: -1;
+  }

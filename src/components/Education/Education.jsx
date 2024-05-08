@@ -3,7 +3,8 @@ import "./Education.css"
 function Education() {
   return (
     <div className='edu-container'>
-      <h2>Education</h2>
+      <h2 className='edu-header'>
+        <span>Education</span></h2>
       <h3>General Assembly</h3>
             <h2>Software Engineer Immersive</h2>
             <h4>Graduated | 2024</h4>

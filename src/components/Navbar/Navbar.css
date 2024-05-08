@@ -98,13 +98,10 @@
 /* Base Styles for Navigation */
 .nav-container {
   background-color: #312ef9;
-  width: 100%;
   color: white;
   position: sticky;
-  top: 0;
   padding: 10px 0;
-  z-index: 1000;
-  border-bottom: 1px solid #ccc;
+  
 }
 
 .navbar {
@@ -118,10 +115,8 @@
   text-decoration: none;
   color: white;
   font-family: 'Autography-DOLnW';
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 @font-face {
