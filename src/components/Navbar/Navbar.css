@@ -167,7 +167,7 @@
 
 /* Example of a simple CSS-only dropdown */
 .nav-item {
-  position: relative;  /* Needed for absolute positioning of the dropdown */
+  position: relative; 
 }
 
 .nav-item:hover .dropdown-content {
@@ -204,7 +204,7 @@
   }
 
   .nav-name {
-    margin-bottom: 10px;  /* Spacing after the site name/logo */
+    margin-bottom: 10px; 
   }
 
   .nav-list {
@@ -213,11 +213,10 @@
   }
 
   .nav-items {
-    margin: 5px 0;  /* Reduce spacing for a more compact layout */
+    margin: 5px 0;  
   }
 
   .nav-link, .nav-contact {
-    font-size: 14px;  /* Slightly smaller text to fit better on small screens */
-  }
+    font-size: 14px;  
 }
-
+}
