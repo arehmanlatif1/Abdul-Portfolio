@@ -65,7 +65,7 @@ hr {
     border: none;
     height: 5px;
     background-color: #ccc;
-    margin: 2rem auto;
+    margin: 3rem 3rem 0;
     transition: background-color 0.3s ease;
     width: 80%;      
 }
