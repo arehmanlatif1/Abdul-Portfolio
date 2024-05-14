@@ -40,7 +40,6 @@ hr:hover{
     background-color: rgba(0, 17, 148, 0.1);
     margin-top: 10vh;  
     width: 90vw;       
-    /* height: 50vh;       */
     padding: 1rem;     
     box-sizing: border-box;
 }
@@ -66,14 +65,18 @@ hr {
     height: 5px;
     background-color: #ccc;
     margin: 3rem 3rem 0;
+    display: flex;
+    justify-content: center;
     transition: background-color 0.3s ease;
     width: 80%;      
 }
+.download-btn {
+    width: 20px;
+}
 
-/* For tablets and smaller desktops */
 @media (max-width: 768px) {
     .abdul-portfolio {
-        flex-direction: column; 
+        flex-direction: column-reverse;
         height: auto; 
         margin-top: 5vh;
     }
@@ -93,7 +96,6 @@ hr {
     }
 }
 
-/* For mobile phones */
 @media (max-width: 480px) {
     .abdul-portfolio {
         padding: 0.5rem;

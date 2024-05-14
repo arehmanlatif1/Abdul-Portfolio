@@ -86,7 +86,6 @@
 
 
 
-/* Font Face Declarations */
 @font-face {
     font-family: 'Roboto-Thin';
     src: url('../../../public/Fonts/Roboto-Thin.ttf');
@@ -97,7 +96,6 @@
     src: url('../../../public/Fonts/Lugrasimo-Regular.ttf');
 }
 
-/* Header Styling */
 .tab-header {
     text-align: center;
     margin-top: 150px;
@@ -125,23 +123,22 @@
     z-index: -1;
 }
 
-/* Skills Container */
+
 .skills-container {
     overflow: hidden;
     position: relative;
     width: 100%;  
     font-family: 'Roboto-Thin';
     background-image: url('../../Background/skills-background.jpg');
-    padding: 2rem;  /* Adjusted from 10rem for more realistic spacing */
-    margin-top: 50px;  /* Reduced for better spacing */
-    background-size: cover;  /* Ensure background covers the container */
-}
+    padding: 2rem;  
+    margin-top: 50px;  
+    background-size: cover;  
 
-/* Skills Slider */
+}   
 .skills-slider {
     display: flex;
     justify-content: space-between;
-    width: 100%;  /* Ensure slider uses full width */
+    width: 100%; 
     animation: slide 30s linear infinite;
 }
 
@@ -151,7 +148,7 @@
 }
 
 .skillx {
-    flex: 0 0 auto;  /* Allow flexibility in basis */
+    flex: 0 0 auto;  
     margin: 20px; 
     padding: 20px; 
     border-radius: 8px; 
@@ -174,7 +171,7 @@
 }
 
 
-/* Base and Global Styles */
+
 @font-face {
     font-family: 'Roboto-Thin';
     src: url('../../../public/Fonts/Roboto-Thin.ttf');
@@ -231,34 +228,34 @@
     animation-play-state: paused;
 }
 
-/* Media Query for Mobile Devices */
+
 @media (max-width: 768px) {
     .skills-slider {
-        animation: none; /* Stops the animation */
-        flex-direction: column; /* Skills displayed in a column */
+        animation: none; 
+        flex-direction: column; 
     }
 
     .skillx {
-        flex: 0 0 100%; /* Each skill takes full width */
+        flex: 0 0 100%; 
     }
 }
 
 
-/* Media Queries for Responsive Adjustments */
+
 @media (max-width: 768px) {
     .tab-header {
         margin-top: 10vh;
-        font-size: 30px;  /* Smaller font size for mobile */
+        font-size: 30px;  
         margin: 8rem auto 0;
     }
 
     .skills-slider {
-        flex-direction: column;  /* Stack skills vertically on smaller screens */
-        animation: none;  /* Consider pausing or adjusting animation on small devices */
+        flex-direction: column;  
+        animation: none; 
     }
 
     .skillx {
-        flex: 0 0 100%; /* Each skill takes full width */
+        flex: 0 0 100%; 
     }
 }
 
@@ -296,12 +293,12 @@
     100% { transform: translateX(-100%); }
 }
 
-/* Corrects the pause on hover issue without affecting layout */
+
 .skills-container:hover .skills-slider {
     animation-play-state: paused;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
     .skills-container {
         padding: 2rem 0;  

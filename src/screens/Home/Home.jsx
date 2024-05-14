@@ -24,13 +24,22 @@ function Home() {
             am a quick learner and highly adaptable, with a strong drive to
             continuously improve my skills and knowledge.
           </p>
-          <a
+          <div className="download-btn">
+          <a 
             href="https://docs.google.com/document/d/1t0FhEagcEJBbntU1log_lJhBaewILPhJ/edit?usp=sharing&ouid=114357877718036734215&rtpof=true&sd=true"
             target="_blank"
             download="Resume_Abdul_Rehman.pdf"
           >
-            <Lottie animationData={button} className="button" loop={true} style={{width: "15rem", display:"grid",   } } />
+            <Lottie animationData={button} loop={true} style={{width: "10rem", display:"grid",   } } />
           </a>
+          </div>
+
+          {/* <button className="hire-btn">
+            <a href="https://www.linkedin.com/in/abdulrehmanlatif1/">
+            Hire Me
+            </a>
+            </button> */}
+
         </div>
         <img className="img-ar" src={abdul} alt="ar" />
        
