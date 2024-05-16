@@ -1,0 +1,25 @@
+.contact-titile {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 4rem;
+  font-family: "Lugrasimo-Regular", sans-serif;
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.contact-titile span {
+  background-color: rgb(255, 255, 255);
+  padding: 0 10px;
+  z-index: 1;
+}
+
+.contact-titile::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  height: 2px;
+  background-color: #000;
+  z-index: -1;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import Experience from "../../components/Experience/Experience.jsx";
 import Education from "../../components/Education/Education.jsx";
 import Project from "../../components/Projects/Project.jsx";
+import Contact from "../../components/Contact/Contact.jsx";
 import abdul from "../../Icons/ar.jpeg";
 import Skills from "../../components/Skills/Skill.jsx";
 import button from "../../gif-files/Downcloud.json"
@@ -66,6 +67,12 @@ function Home() {
       <section className="section-ex">
         <div className="div-ex" id="experience">
           <Experience />
+        </div>
+      </section>
+
+      <section className="section-contact">
+        <div className="div-contact" id="contact">
+          <Contact />
         </div>
       </section>
     </div>

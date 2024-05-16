@@ -1,101 +1,3 @@
-/* .nav-container {
-  background-color: #312ef9;
-  width: 100%;
-  color: white;
-  position: sticky;
-  top: 0;
-  padding: 10px 0;
-  z-index: 1000;
-  border-bottom: 1px solid #ccc;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-.nav-name {
-  text-decoration: none;
-  color: white;
-  font-family: Autography-DOLnW;
-  display: flex;
-  text-align: center;
-  font-weight: 700;
-  font-size: 20px;
-}
-@font-face {
-  font-family: Autography-DOLnW;
-  src: url(../../../public/Fonts/Autography-DOLnW.otf);
-}
-.nav-name:hover {
-  color: #b3ff00;
-  text-shadow: #90caf9 1px 0 10px;
-}
-.icon-right {
-  transform: rotate(90deg);
-  height: 30px;
-  margin: 0 5px;
-}
-.icon-left:hover {
-  color: #b3ff00;
-  text-shadow: #90caf9 1px 0 10px;
-}
-.icon-left {
-  transform: rotate(90deg);
-  height: 30px;
-  margin: 0 5px;
-}
-.nav-list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.nav-items {
-  margin: 0 10px;
-  display: inline-block;
-}
-.nav-link {
-  text-decoration: none;
-  font-size: 30px;
-  color: white;
-  font-family: Lugrasimo-Regular;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-.nav-contact {
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  font-family: Lugrasimo-Regular;
-  padding: 5px 15px;
-}
-.nav-contact:hover {
-  color: #b3ff00;
-  text-shadow: #90caf9 1px 0 10px;
-}
-
-.nav-link:hover {
-  color: #b3ff00;
-  text-shadow: #90caf9 1px 0 10px;
-  text-decoration: underline;
-}
-@media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-  }
-  nav ul {
-    flex-direction: column;
-  }
-  nav ul li {
-    margin: 10px 0;
-  }
-} */
-
-
-/* Base Styles for Navigation */
 .nav-container {
   background-color: #312ef9;
   color: white;
@@ -165,7 +67,7 @@
 }
 
 
-/* Example of a simple CSS-only dropdown */
+
 .nav-item {
   position: relative; 
 }
@@ -191,12 +93,9 @@
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
 
 
 
-
-/* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;

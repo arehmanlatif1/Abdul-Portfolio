@@ -3,7 +3,6 @@ import Lottie from "lottie-react";
 import htmlicon from "../../gif-files/Html.json";
 import styling from "../../gif-files/Cssheet.json";
 import js from "../../gif-files/Javascript.json";
-import weatherapp from "../../Photos/Weather app.png";
 import github from "../../gif-files/Github.json";
 import ec from "../../gif-files/CurrencyEx.json"
 import cloudy from "../../gif-files/Clouds.json"

@@ -1,105 +1,3 @@
-/* ul .ex-details {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-  }
-  
-
-  .title {
-    text-align: center;
-    margin-top: 12rem; 
-    font-size: 50px;
-    font-family: 'Lugrasimo-Regular', sans-serif; 
-    color: rgb(0, 0, 0);
-    position: relative;
-  }
-  
-  .title span {
-    background-color: rgb(255, 255, 255);
-    padding: 0 10px;
-    z-index: 1;
-  }
-  
-  .title::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 50%;
-    height: 2px;
-    background-color: #000;
-    z-index: -1;
-  }
-  
-  .tab-display {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around; 
-  }
-  
-  .ex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;  
-    border-radius: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden; 
-    padding: 0;
-    width: 30%;
-    margin-top: 5rem;
-  }
-  
-  .company-header {
-    background-color: rgb(160, 219, 255);  
-    width: 100%;  
-    padding: 15px 0; 
-    border-top-left-radius: 1rem;  
-    border-top-right-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .company-logo {
-    height: 6rem;
-    margin-top: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-  }
-  
-  .ex-company {
-    font-size: 1.5rem;
-  }
-  
-  .ex-role{
-    text-align: center;
-    font-size: 1rem;
-
-  } 
-  .ex-date {
-    text-align: center;
-    font-size: .5;
-  }
-  
-  .ex-image {
-    margin-top: 8rem;
-    transition: transform 0.3s ease-in-out;
-  
-  }
-  .ex-image:hover{
-    transform: scale(1.1);
-  }
-  .ex-details{
-    text-align: center;
-    font-size: 1rem;
-    color: rgb(120, 114, 114);
-    margin: 10px 0px 50px 0px;
-  } */
-
-
-  /* Font and Base Styles */
 @font-face {
   font-family: 'Lugrasimo-Regular';
   src: url('../../../public/Fonts/Lugrasimo-Regular.ttf');
@@ -107,8 +5,8 @@
 
 .title {
   text-align: center;
-  margin-top: 5rem;  /* Adjusted for responsiveness */
-  font-size: 4rem;  /* Adjusted for readability on larger screens */
+  margin-top: 5rem;
+  font-size: 4rem; 
   font-family: 'Lugrasimo-Regular', sans-serif;
   color: rgb(0, 0, 0);
   position: relative;
@@ -147,9 +45,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   padding: 20px;
-  width: 100%;  /* Full width for mobile first */
-  max-width: 400px;  /* Maximum width for scaling */
-  margin: 2rem auto;  /* Centering and spacing */
+  width: 100%;
+  max-width: 400px;  
+  margin: 2rem auto; 
 }
 
 .company-header {
@@ -190,28 +88,28 @@
   transform: scale(1.1);
 }
 
-/* Media Queries for Adjusting Layout on Smaller Screens */
+
 @media (max-width: 768px) {
   .title {
-    font-size: 3rem;  /* Smaller font size for smaller devices */
-    margin-top: 2rem;  /* Less margin on top for compact layout */
+    font-size: 3rem; 
+    margin-top: 2rem;
   }
 
   .ex-container {
-    width: 90%;  /* Slightly narrower to fit smaller screens */
+    width: 90%; 
   }
 
   .ex-role, .ex-date, .ex-details {
-    font-size: 0.9rem;  /* Slightly smaller font size for details */
+    font-size: 0.9rem; 
   }
 }
 
 @media (max-width: 480px) {
   .title {
-    font-size: 2.5rem;  /* Even smaller font size for very small devices */
+    font-size: 2.5rem;  
   }
 
   .ex-company {
-    font-size: 1.2rem;  /* Smaller company name font size */
+    font-size: 1.2rem;  
   }
 }

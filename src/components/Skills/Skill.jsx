@@ -7,7 +7,7 @@ import reactjs from "../../Icons/react-js-icon.png";
 import sql from "../../Icons/database-icon.png";
 import styling from "../../Icons/css-icon.png"
 import "./Skill.css";
-function Skills() {
+function Skill() {
   return (
     <div className="skills-main">
       <h3 className="tab-header">
@@ -127,4 +127,4 @@ function Skills() {
     </div>
   );
 }
-export default Skills;
+export default Skill;
