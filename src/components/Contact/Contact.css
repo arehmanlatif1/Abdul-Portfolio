@@ -23,11 +23,30 @@
   background-color: #000;
   z-index: -1;
 }
-.contact-form{
-    background-color: rgb(135, 135, 230);
-    padding: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
+
+.contact-main{
+  text-align: center;
+  background-color: rgb(98, 98, 251);
+}
+.con-msg{
+  color: rgb(181, 179, 179);
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.con-class{
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: 'Roboto-Thin';
+  padding: 20px;
+  
+}
+.con-items{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+  font-size: 1.5rem;
+  font-family: 'Roboto-Thin';
+  font-weight: 500;
+  color: whitesmoke;
 }

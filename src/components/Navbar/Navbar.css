@@ -1,7 +1,7 @@
 .nav-container {
   background-color: #312ef9;
   color: white;
-  position: sticky;
+  /* position: sticky; */
   padding: 15px 20px;
   overflow: hidden;
   top: 0;
