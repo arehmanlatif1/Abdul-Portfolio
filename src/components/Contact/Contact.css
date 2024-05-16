@@ -23,3 +23,11 @@
   background-color: #000;
   z-index: -1;
 }
+.contact-form{
+    background-color: rgb(135, 135, 230);
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
