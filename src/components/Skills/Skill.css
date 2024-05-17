@@ -1,105 +1,106 @@
 @font-face {
-    font-family: 'Roboto-Thin';
-    src: url('../../../public/Fonts/Roboto-Thin.ttf');
+  font-family: "Roboto-Thin";
+  src: url("../../../public/Fonts/Roboto-Thin.ttf");
 }
 
 @font-face {
-    font-family: 'Lugrasimo-Regular';
-    src: url('../../../public/Fonts/Lugrasimo-Regular.ttf');
+  font-family: "Lugrasimo-Regular";
+  src: url("../../../public/Fonts/Lugrasimo-Regular.ttf");
 }
 
 .tab-header {
-    text-align: center;
-    margin-top: 150px;
-    font-size: 50px;  
-    font-family: 'Lugrasimo-Regular';
-    color: rgb(0, 0, 0);
-    position: relative;
-    margin: 12rem auto 10rem;
-    padding: 25px 10px; 
+  text-align: center;
+  margin-top: 150px;
+  font-size: 50px;
+  font-family: "Lugrasimo-Regular", sans-serif;
+  color: rgb(0, 0, 0);
+  position: relative;
+  margin: 12rem auto 10rem;
+  padding: 25px 10px;
 }
 
 .tab-header span {
-    background-color: rgb(255, 255, 255);
-    z-index: 1; 
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
 }
 
 .tab-header::after {
-    content: ''; 
-    position: absolute;
-    left: 0; 
-    right: 0;
-    bottom: 50%;
-    height: 2px; 
-    background-color: #000;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  height: 2px;
+  background-color: #000;
+  z-index: -1;
 }
-
 
 .skills-container {
-    overflow: hidden;  
-    position: relative;
-    width: 100%;  
-    font-family: 'Roboto-Thin';
-    border-width: 1rem;
-    background-image: url('../../Background/skills-background.jpg');
-    padding: 10rem 0; 
-    margin-top: 100px;
-    background-size: cover;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  font-family: "Roboto-Thin";
+  border-width: 1rem;
+  background-image: url("../../Background/skills-background.jpg");
+  padding: 10rem 0;
+  margin-top: 100px;
+  background-size: cover;
 }
-  
+
 .skills-slider {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
-    animation: slide 30s linear infinite;
-    white-space: nowrap;  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  animation: slide 30s linear infinite;
+  white-space: nowrap;
 }
 
 .skills-icon {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .skillx {
-    flex: 0 0 auto;
-    width: 200px;  
-    margin: 20px; 
-    padding: 20px; 
-    border-radius: 8px; 
-    transition: background-color 0.3s ease;
-    box-sizing: border-box;  
+  flex: 0 0 auto;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
 }
 
 .skillx:hover {
-    background-color: #ffffff; 
-    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
-    transform: translateY(-2px); 
+  background-color: #ffffff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 
 @keyframes slide {
-    from { transform: translateX(0); }
-    to { transform: translateX(-100%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .skills-container:hover .skills-slider {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
-
 @media (max-width: 768px) {
-    .tab-header {
-        margin-top: 10vh;
-        font-size: 30px;  
-        margin: 8rem auto 0;
-    }
+  .tab-header {
+    margin-top: 10vh;
+    font-size: 30px;
+    margin: 8rem auto 0;
+  }
 
-    .skills-slider {
- 
-        width: 20px;
-    }
+  .skills-slider {
+    width: 20px;
+  }
 
-    .skillx {
-        flex: 0 0 100%; 
-    }
+  .skillx {
+    flex: 0 0 100%;
+  }
 }

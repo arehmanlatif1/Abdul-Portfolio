@@ -12,7 +12,7 @@ function Education() {
   return (
     <div className="edu-container">
       <h2 className="edu-header">
-        <span>Education</span>
+        <span>EDUCATION</span>
         </h2>
       <div className="education-list">
         <Lottie animationData={educationicon}  loop={true} style={{width: "30rem"}}/>

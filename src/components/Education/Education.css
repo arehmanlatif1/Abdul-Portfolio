@@ -1,53 +1,53 @@
 .edu-header {
-    text-align: center;
-      margin-top: 150px;
-      font-size: 50px;  
-      font-family: 'Lugrasimo-Regular';
-      color: rgb(0, 0, 0);
-      position: relative;
-      margin: 12rem auto 0; 
-      padding: 0 10px;  
-  }
-  .edu-header span {
-    background-color: rgb(255, 255, 255);
-    padding: 0 10px;
-    z-index: 1; 
-  }
-  .edu-header::after {
-    content: ''; 
-    position: absolute;
-    left: 0; 
-    right: 0;
-    bottom: 50%;
-    height: 2px; 
-    background-color: #000;
-    z-index: -1;
-  }
+  text-align: center;
+  margin-top: 150px;
+  font-size: 50px;
+  font-family: "Lugrasimo-Regular", sans-serif;
+  color: rgb(0, 0, 0);
+  position: relative;
+  margin: 12rem auto 10rem;
+  padding: 25px 10px;
+}
+.edu-header span {
+  background-color: rgb(255, 255, 255);
+  padding: 0 10px;
+  z-index: 1;
+}
+.edu-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  height: 2px;
+  background-color: #000;
+  z-index: -1;
+}
 
-  .education-container {
-    width: 100%;
-    padding: 20px;
-    background-color: #f3f4f6;
-    text-align: center;
-  }
+.education-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f3f4f6;
+  text-align: center;
+}
 
-  .education-header{
-    color: #312ef9;
-  }
+.education-header {
+  color: #312ef9;
+}
 
-  .education-list{
-    display: flex;
-    justify-content: center;
-  }
+.education-list {
+  display: flex;
+  justify-content: center;
+}
 
-  .education-item{
-    background: white;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgb(0,0,0,0.1);
-  }
+.education-item {
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+}
 
-  /* @media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .education-item {
       width: 100%;
     }

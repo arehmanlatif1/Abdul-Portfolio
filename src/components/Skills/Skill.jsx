@@ -11,7 +11,7 @@ function Skill() {
   return (
     <div className="skills-main">
       <h3 className="tab-header">
-        <span>Skills</span>
+        <span>SKILLS</span>
       </h3>
       <div className="skills-container">
         <div className="skills-slider">

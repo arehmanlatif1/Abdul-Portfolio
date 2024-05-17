@@ -8,6 +8,7 @@ import Skills from "../../components/Skills/Skill.jsx";
 import button from "../../gif-files/Downcloud.json"
 import Lottie from "lottie-react";
 import "./Home.css";
+import Footer from "../../components/Footer/Footer.jsx";
 
 function Home() {
   return (
@@ -45,7 +46,6 @@ function Home() {
         <img className="img-ar" src={abdul} alt="ar" />
        
       </div>
-      <hr className="animated" />
 
       <section className="section-skills">
         <div className="skills" id="skills">
@@ -73,6 +73,12 @@ function Home() {
       <section className="section-contact">
         <div className="div-contact" id="contact">
           <Contact />
+        </div>
+      </section>
+
+      <section className="section-footer">
+        <div className="div-footer" id="footer">
+          <Footer />
         </div>
       </section>
     </div>

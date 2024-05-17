@@ -8,7 +8,7 @@ function Experience() {
   return (
     <div className="ex-header">
       <h2 className="title">
-        <span>Experience</span>
+        <span>EXPERIENCE</span>
       </h2>
 
       <div className="tab-display">
