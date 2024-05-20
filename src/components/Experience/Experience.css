@@ -1,13 +1,8 @@
-@font-face {
-  font-family: "Lugrasimo-Regular";
-  src: url("../../../public/Fonts/Lugrasimo-Regular.ttf");
-}
-
-.title {
+/* .title {
   text-align: center;
   margin-top: 150px;
   font-size: 50px;
-  font-family: "Lugrasimo-Regular", sans-serif;
+  font-family: "";
   color: rgb(0, 0, 0);
   position: relative;
   margin: 12rem auto 10rem;
@@ -46,16 +41,11 @@
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  padding: 20px;
-  width: 100%;
   max-width: 400px;
   margin: 2rem auto;
 }
 
 .company-header {
-  background-color: rgb(160, 219, 255);
-  width: 100%;
-  padding: 15px;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   display: flex;
@@ -66,25 +56,44 @@
 
 .company-logo {
   height: 6rem;
-  margin-top: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
 
 .ex-company {
   font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
 
-.ex-role,
-.ex-date,
-.ex-details {
+.ex-role{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+.ex-date{
   text-align: center;
   font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+.ex-details {
+  text-align: center;
+  font-size: 1.1rem;
+  font: 19px / 23px "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
 }
 
 .ex-image {
   width: 100%;
-  margin-top: 2rem;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -117,4 +126,4 @@
   .ex-company {
     font-size: 1.2rem;
   }
-}
+} */

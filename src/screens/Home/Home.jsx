@@ -15,16 +15,10 @@ function Home() {
     <div className="home-container">
       <div className="abdul-portfolio">
         <div className="content">
-          <h2> Who am I?</h2>
-          <h2 className="home-ar">ᗩᗷᗪᑌᒪ ᖇEᕼᗰᗩᑎ</h2>
+          <h2> Hi All!</h2>
+          <h2 className="home-ar">I'm Abdul Rehman</h2>
           <p className="summary">
-            A highly motivated and detail-oriented software engineer with
-            experience in Web development, social media marketing, and customer
-            service. A recent graduate from General Assembly with Bootcamp in
-            Software Engineer Full Stack Developer, I am well-versed in various
-            programming languages, including HTML, CSS, and JavaScript, React. I
-            am a quick learner and highly adaptable, with a strong drive to
-            continuously improve my skills and knowledge.
+            A highly motivated and detail-oriented software engineer with experience in Web development and social media marketing. A recent graduate from General Assembly with Bootcamp in Software Engineer Full Stack Developer, I am well-versed in various programming languages, including HTML / CSS / JavaScript / React. I am a quick learner and highly adaptable, with a strong drive to continuously improve my skills and knowledge.
           </p>
           <div className="download-btn">
           <a 
@@ -32,7 +26,8 @@ function Home() {
             target="_blank"
             download="Resume_Abdul_Rehman.pdf"
           >
-            <Lottie animationData={button} loop={true} style={{width: "10rem", display:"grid",   } } />
+            <Lottie animationData={button} loop={true} style={{width: "10rem",   } } />
+            Resume
           </a>
           </div>
 
@@ -64,11 +59,11 @@ function Home() {
         </div>
       </section>
 
-      <section className="section-ex">
+      {/* <section className="section-ex">
         <div className="div-ex" id="experience">
           <Experience />
         </div>
-      </section>
+      </section> */}
 
       <section className="section-contact">
         <div className="div-contact" id="contact">

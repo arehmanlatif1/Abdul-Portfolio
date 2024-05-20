@@ -282,7 +282,7 @@ function Project() {
           <div className="app-container">
             <Lottie animationData={ec} loop={true} />
             <h3 className="app-title">
-              <a href="https://exchangecurrencies.netlify.app/">" Code.Pal "</a>
+              <a href="https://dev--jovial-macaron-61c636.netlify.app/">" Code.Pal "</a>
               </h3>
             <p className="app-description">
               {/* We create a freeleance website, where a client can hire a delveloper */}

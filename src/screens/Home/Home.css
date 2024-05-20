@@ -25,6 +25,11 @@
     margin-left: 30px;
     box-sizing: border-box; 
 }
+.summary{
+    font: 19px / 23px "Roboto Mono";
+    font-size: 20px;
+    line-height: 2rem;
+}
 
 hr {
     border: none;
