@@ -1,6 +1,7 @@
 import React from "react";
 import "./Education.css";
 import Lottie from "lottie-react";
+import edu from "../../gif-files/Education.json"
 import educationicon from "../../gif-files/edu.json"
 function Education() {
 
@@ -15,7 +16,7 @@ function Education() {
         <span>EDUCATION</span>
         </h2>
       <div className="education-list">
-        <Lottie animationData={educationicon}  loop={true} style={{width: "30rem"}}/>
+        <Lottie animationData={edu}  loop={true} />
                 {educations.map((education) => (
                     <div key={education.id} className="education-item">
                         <h3>{education.title}</h3>

@@ -6,7 +6,12 @@ import Contact from "../../components/Contact/Contact.jsx";
 import abdul from "../../Icons/ar.jpeg";
 import Skills from "../../components/Skills/Skill.jsx";
 import button from "../../gif-files/Downcloud.json"
+import prof from "../../gif-files/DesktopW.json"
+import profile from "../../gif-files/Profile.json"
 import Lottie from "lottie-react";
+import hand from "../../gif-files/Waving.json"
+import desk from  "../../gif-files/Desktop.json"
+import deskdesign from "../../gif-files/DesktopDesign.json"
 import "./Home.css";
 import Footer from "../../components/Footer/Footer.jsx";
 
@@ -15,21 +20,26 @@ function Home() {
     <div className="home-container">
       <div className="abdul-portfolio">
         <div className="content">
-          <h2> Hi All!</h2>
-          <h2 className="home-ar">I'm Abdul Rehman</h2>
+          <h2> Hi All!
+            <Lottie animationData={hand}  style={{ width: "5rem", display: "inline-block", verticalAlign: "middle"  }}/>
+          </h2>
+          <h2 className="home-ar">I'm <em>Abdul Rehman</em></h2>
           <p className="summary">
             A highly motivated and detail-oriented software engineer with experience in Web development and social media marketing. A recent graduate from General Assembly with Bootcamp in Software Engineer Full Stack Developer, I am well-versed in various programming languages, including HTML / CSS / JavaScript / React. I am a quick learner and highly adaptable, with a strong drive to continuously improve my skills and knowledge.
           </p>
-          <div className="download-btn">
+          <div>
+            <button className="download-btn">
           <a 
             href="https://docs.google.com/document/d/1t0FhEagcEJBbntU1log_lJhBaewILPhJ/edit?usp=sharing&ouid=114357877718036734215&rtpof=true&sd=true"
             target="_blank"
             download="Resume_Abdul_Rehman.pdf"
           >
-            <Lottie animationData={button} loop={true} style={{width: "10rem",   } } />
+            {/* <Lottie animationData={button} loop={true} style={{width: "10rem",   } } /> */}
             Resume
           </a>
+          </button>
           </div>
+          
 
           {/* <button className="hire-btn">
             <a href="https://www.linkedin.com/in/abdulrehmanlatif1/">
@@ -38,7 +48,11 @@ function Home() {
             </button> */}
 
         </div>
-        <img className="img-ar" src={abdul} alt="ar" />
+        {/* <img className="img-ar" src={abdul} alt="ar" /> */}
+        <Lottie animationData={prof} loop={true} /> 
+        {/* <Lottie animationData={profile} /> */}
+        {/* <Lottie animationData={desk} style={{ width: "50rem" }} /> */}
+        {/* <Lottie animationData={deskdesign} /> */}
        
       </div>
 
