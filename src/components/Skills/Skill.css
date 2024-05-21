@@ -16,7 +16,6 @@
   text-align: center;
   margin-top: 150px;
   font-size: 50px;
-  font-family: "Lugrasimo-Regular", sans-serif;
   color: rgb(0, 0, 0);
   position: relative;
   margin: 12rem auto 10rem;
@@ -25,6 +24,7 @@
 
 .tab-header span {
   background-color: rgb(255, 255, 255);
+  font-family: "Lugrasimo-Regular", sans-serif;
   z-index: 1;
 }
 
@@ -54,16 +54,15 @@
   font-size: 1.2rem;
   margin-top : 3rem;
   margin-bottom: 5rem;
-  margin-left: 10rem;
   font-family: "Roboto-Thin";
-  width: 30vw;
+  /* width: 30vw; */
 
 }
 .skills-slider h2{
   font-family:"Roboto-Thin";
   font-size: 3rem;
   font-weight: -500;
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
 
 }
 .skills-icon {
@@ -72,8 +71,8 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
-  width: 30vw;
-  margin-left: 10rem;
+  /* width: 30vw; */
+  /* margin-left: 10rem; */
 
 }
 .icon-container {
@@ -99,6 +98,10 @@
     font-size: 30px;
     margin: 8rem auto 0;
   }
+  .skills-container{
+    display: flex;
+    flex-direction: column;
+  }
   #lottie-skills{
     width: 100%;
     max-width: 30rem;
@@ -113,10 +116,13 @@
   }
 }
 @media (max-width: 600px){
+  .skills-container{
+    display: flex;
+    flex-direction: column;
+  }
   #lottie-skills{
     width: 100%;
     max-width: 20rem;
-    margin-left: 2rem;
   }
   .icon-container h6 {
     margin-top: 0.5rem;

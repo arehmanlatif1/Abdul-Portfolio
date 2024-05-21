@@ -13,7 +13,7 @@ import "./Project.css";
 function Project() {
   return (
     <div className="project-container">
-      <h2 className="project-header">
+      <h2 className="project-header" style={{ font: "19px / 23px Montserrat, sans-serif;" }}>
         <span>TECHNICAL PROJECTS</span>
       </h2>
 

@@ -2,7 +2,6 @@
   text-align: center;
   margin-top: 150px;
   font-size: 50px;
-  font-family: "Lugrasimo-Regular", sans-serif;
   color: rgb(0, 0, 0);
   position: relative;
   margin: 12rem auto 10rem;
@@ -11,6 +10,7 @@
 
 .contact-titile span {
   background-color: rgb(255, 255, 255);
+  font-family: "Lugrasimo-Regular", sans-serif;
   z-index: 1;
 }
 
