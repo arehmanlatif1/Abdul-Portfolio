@@ -1,18 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
   }
 .abdul-portfolio{
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    /* background-color: rgba(0, 17, 148, 0.1); */
-    margin-top: 3vh;  
+    margin-top: 1vh;  
     width: 90vw;       
-    /* padding: 1rem;*/
     box-sizing: border-box;
 }
 
@@ -28,6 +24,12 @@
 }
 .home-ar em{
     color: blue;
+}
+.hey {
+    font-family:"Roboto-Thin";
+    font-size: 3rem;
+    font-weight: -900;
+
 }
 
 .content {
@@ -57,7 +59,7 @@ hr {
     list-style:circle ;   
 }
 .download-btn {
-    width: 12vw;
+    width: 10vw;
     height: 7vh;
     align-self: center;
     background-color: rgb(13, 0, 255);
@@ -65,12 +67,12 @@ hr {
     border-radius: 5px;
     cursor: pointer;
     font-size: larger;
-    margin-top: 3rem;
-    
+    margin-top: 3rem;    
 }
 .download-btn a {
     text-decoration: none;
     color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (max-width: 768px) {

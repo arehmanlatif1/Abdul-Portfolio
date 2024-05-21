@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
 }
 @font-face {
   font-family: "Roboto-Thin";
@@ -41,72 +39,91 @@
   z-index: -1;
 }
 
-.skills-container {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  font-family: "Roboto-Thin";
-  border-width: 1rem;
-  background-image: url("../../Background/skills-background.jpg");
-  padding: 10rem 0;
-  margin-top: 100px;
-  background-size: cover;
-}
 
-.skills-slider {
+.skills-container{
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  animation: slide 30s linear infinite;
-  white-space: nowrap;
-}
 
+}
+.skills-slider {
+  text-align: center;
+  padding: 2rem;
+  margin-top : 3rem;
+
+}
+.skills-slider p {
+  font-size: 1.2rem;
+  margin-top : 3rem;
+  margin-bottom: 5rem;
+  margin-left: 10rem;
+  font-family: "Roboto-Thin";
+  width: 30vw;
+
+}
+.skills-slider h2{
+  font-family:"Roboto-Thin";
+  font-size: 3rem;
+  font-weight: -500;
+  margin-left: 10rem;
+
+}
 .skills-icon {
-  width: 30px;
-  height: 30px;
+  color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 30vw;
+  margin-left: 10rem;
+
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* transition: transform  0.3s, color 0.3s; */
+  transition: all 0.25s ease-in-out;
+
+}
+.icon-container h6 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Roboto-Thin'
 }
 
-.skillx {
-  flex: 0 0 auto;
-  width: 200px;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-  box-sizing: border-box;
+.icon-container:hover {
+  color: #0073e6;
 }
-
-.skillx:hover {
-  background-color: #ffffff;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-}
-
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-.skills-container:hover .skills-slider {
-  animation-play-state: paused;
-}
-
 @media (max-width: 768px) {
   .tab-header {
     margin-top: 10vh;
     font-size: 30px;
     margin: 8rem auto 0;
   }
-
-  .skills-slider {
-    width: 20px;
+  #lottie-skills{
+    width: 100%;
+    max-width: 30rem;
   }
 
-  .skillx {
-    flex: 0 0 100%;
+  .skills-slider h2 {
+    font-size: 2rem;
   }
+
+  .skills-slider p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px){
+  #lottie-skills{
+    width: 100%;
+    max-width: 20rem;
+    margin-left: 2rem;
+  }
+  .icon-container h6 {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  #lol-icons{
+    width: 1.5rem;
+  }
+
 }

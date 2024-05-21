@@ -38,14 +38,25 @@ function Project() {
               nobis dicta!
             </p>
 
-            <ul className="app-icon">
+            <div className="lang-icons"> 
+
+            <h6><i className="fa-brands fa-3x fa-html5"></i><p>HTML</p></h6>
+          <h6><i className="fa-brands fa-3x fa-css3"></i><p>CSS</p></h6>
+          <h6><i className="fa-brands fa-3x fa-js"></i><p>Javascript</p></h6>
+
+            </div>
+
+            {/* <ul className="app-icon">
               <li className="icon-html">
+                <a><i className="fa-brands fa-html">
                 <Lottie
                   animationData={htmlicon}
                   loop={true}
-                  style={{ width: "3.5rem" }}
+                  style={{ width: "3.5rem" }} 
                 />
                 HTML
+                </i>
+                </a>
               </li>
               <li>
                 <Lottie
@@ -63,24 +74,8 @@ function Project() {
                 />
                 Javascript
               </li>
-            </ul>
+            </ul> */}
           </div>
-
-          {/* <div className="site-link">
-          <ul className="site-item">
-            <li>
-              <a href="https://github.com/arehmanlatif1/Currency-Exchange">
-                <Lottie animationData={github} loop={true} style={{ width: "3.5rem" }} />
-                Github
-              </a>
-            </li>
-            <li>
-              <a href="https://exchangecurrencies.netlify.app/">
-                Live Site
-              </a>
-            </li>
-          </ul>
-        </div> */}
         </section>
 
         {/* Weather App Project */}
@@ -126,24 +121,6 @@ function Project() {
               <li>React</li>
             </ul>
           </div>
-          {/* <div className="site-link">
-          <ul className="site-item">
-            
-          <li>
-              <a href="https://github.com/arehmanlatif1/Weather-project">
-                <Lottie animationData={github} loop={true} style={{ width: "3.5rem" }} />
-                Github
-              </a>
-            </li>
-            <li>
-              <a href="https://weather-app-caramel.netlify.app/">
-              <Lottie animationData={weathericon} loop={true}  style={{ width: "3.5rem" }} />
-
-                Live Site
-              </a>
-            </li>
-          </ul>
-        </div> */}
         </section>
 
         <section className="section-container">
@@ -192,24 +169,6 @@ function Project() {
               <li>React</li>
             </ul>
           </div>
-          {/* <div className="site-link">
-          <ul className="site-item">
-            
-          <li>
-              <a href="https://github.com/arehmanlatif1/Weather-project">
-                <Lottie animationData={github} loop={true} style={{ width: "3.5rem" }} />
-                Github
-              </a>
-            </li>
-            <li>
-              <a href="https://weather-app-caramel.netlify.app/">
-              <Lottie animationData={weathericon} loop={true}  style={{ width: "3.5rem" }} />
-
-                Live Site
-              </a>
-            </li>
-          </ul>
-        </div> */}
         </section>
 
         {/* REK'T Project */}
@@ -261,21 +220,6 @@ function Project() {
               </li>
             </ul>
           </div>
-          {/* <div className="site-link">
-          <ul className="site-item">
-            <li>
-              <a href="https://github.com/jbourke16/team-rekt-frontend" >
-                <Lottie animationData={github} loop={true}  style={{ width: "3.5rem" }} />
-                Github
-              </a>
-            </li>
-            <li>
-              <a href="https://rekt-api.netlify.app/">
-                Live Site
-              </a>
-            </li>
-          </ul>
-        </div> */}
         </section>
 
         <section className="section-container">
@@ -319,22 +263,6 @@ function Project() {
               </li>
             </ul>
           </div>
-
-          {/* <div className="site-link">
-          <ul className="site-item">
-            <li>
-              <a href="https://github.com/arehmanlatif1/Currency-Exchange">
-                <Lottie animationData={github} loop={true} style={{ width: "3.5rem" }} />
-                Github
-              </a>
-            </li>
-            <li>
-              <a href="https://exchangecurrencies.netlify.app/">
-                Live Site
-              </a>
-            </li>
-          </ul>
-        </div> */}
         </section>
       </div>
     </div>

@@ -20,7 +20,7 @@ function Home() {
     <div className="home-container">
       <div className="abdul-portfolio">
         <div className="content">
-          <h2> Hi All!
+          <h2 className="hey"> Hi All!
             <Lottie animationData={hand}  style={{ width: "5rem", display: "inline-block", verticalAlign: "middle"  }}/>
           </h2>
           <h2 className="home-ar">I'm <em>Abdul Rehman</em></h2>

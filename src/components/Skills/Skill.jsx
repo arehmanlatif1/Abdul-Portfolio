@@ -1,11 +1,10 @@
 import React from "react";
-import html from "../../Icons/html-icon.png";
-import java from "../../Icons/javascript-programming-language-icon.png";
-import pythons from "../../Icons/python-programming-language-icon.png";
-import django from "../../Icons/django-icon.png";
-import reactjs from "../../Icons/react-js-icon.png";
-import sql from "../../Icons/database-icon.png";
-import styling from "../../Icons/css-icon.png"
+import skillsdesing from "../../gif-files/Skilldesign.json"
+import Lottie from "lottie-react";
+import { SiMongodb,SiExpress,SiDjango,SiJquery,SiJavascript } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaHtml5,FaCss3,FaReact,FaPython,FaNode,FaNpm,FaDatabase } from "react-icons/fa";
+
 import "./Skill.css";
 function Skill() {
   return (
@@ -14,10 +13,33 @@ function Skill() {
         <span>SKILLS</span>
       </h3>
       <div className="skills-container">
-        <div className="skills-slider">
+      <div className="lottie-container">
+        <Lottie animationData={skillsdesing} id="lottie-skills" loop={true} style={{ width: "50rem" }}/>
+      </div>
+
+      <div className="skills-slider">
+      <h2>What I do</h2>
+      <p>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</p>
+      <div className="skills-icon">
+        <div className="icon-container"><FaHtml5 size={50} id="lol-icons"/> <h6>HTML</h6></div>
+        <div className="icon-container"><FaCss3 size={50} id="lol-icons" /> <h6>CSS</h6></div>
+        <div className="icon-container"><SiJavascript size={50} id="lol-icons" /> <h6>JavaScript</h6></div>
+        <div className="icon-container"><FaReact size={50} id="lol-icons"/> <h6>React</h6></div>
+        <div className="icon-container"><FaPython size={50} id="lol-icons"/> <h6>Python</h6></div>
+        <div className="icon-container"><FaNode size={50} id="lol-icons"/> <h6>Node.js</h6></div>
+        <div className="icon-container"><SiExpress size={50} id="lol-icons"/> <h6>Express</h6></div>
+        <div className="icon-container"><FaNpm size={50} id="lol-icons"/> <h6>NPM</h6></div>
+        <div className="icon-container"><SiMongodb size={50} id="lol-icons"/> <h6>MongoDB</h6></div>
+        <div className="icon-container"><SiDjango size={50} id="lol-icons"/> <h6>Django</h6></div>
+        <div className="icon-container"><SiJquery size={50} id="lol-icons"/> <h6>jQuery</h6></div>
+        <div className="icon-container"><FaDatabase size={50} id="lol-icons"/> <h6>SQL</h6></div>
+        <div className="icon-container"><BiLogoPostgresql size={50} id="lol-icons"/> <h6>PostgreSQL</h6></div>
+      </div>
+    </div>
+        {/* <div className="skills-slider">
           <div className="skillx" style={{ backgroundColor: "#e8eaf6" }}>
             <p>
-              <img className="skills-icon" src={html} alt="HTML" /> HTML
+              <img className="skills-icon" src= "experience/html.svg" alt="HTML" /> HTML
             </p>
           </div>
           <div className="skillx" style={{ backgroundColor: "#e8eaf6" }}>
@@ -121,8 +143,8 @@ function Skill() {
               <img className="skills-icon" src={html} alt="PostgreSQL" />{" "}
               PostgreSQL
             </p>
-          </div>
-        </div>
+          </div> 
+        {/* </div> */}
       </div>
     </div>
   );
