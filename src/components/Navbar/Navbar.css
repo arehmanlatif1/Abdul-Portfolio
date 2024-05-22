@@ -1,38 +1,7 @@
-*{
+* {
   margin: 0;
   padding: 0;
-}
-.nav-container {
-  background-color: #312ef9;
-  color: white;
-  /* position: sticky; */
-  padding: 15px 20px;
-  overflow: hidden;
-  top: 0;
-  max-width: 100%;
-}
-/* .nav-container a{
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-} */
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.nav-name {
-  text-decoration: none;
-  color: white;
-  font-family: 'Autography-DOLnW';
-  font-weight: 500;
-  font-size: 30px;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -40,96 +9,111 @@
   src: url('../../../public/Fonts/Autography-DOLnW.otf');
 }
 
-.nav-name:hover, .nav-link:hover, .nav-contact:hover {
-  color: #b3ff00;
-  text-shadow: #90caf9 1px 0 10px;
+.nav-container {
+  width: 100%;
+  background-color:#312ef9;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s;
 }
-
+.nav-name {
+  text-decoration: none;
+  color: white;
+  font-family: 'Autography-DOLnW';
+  font-weight: 500;
+  font-size: 30px;
+}
+.nav-container.scrolled {
+  background-color:#312ef9;
+}
 .icon-right, .icon-left {
   transform: rotate(90deg);
   height: 30px;
   margin: 0 5px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-name {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-name img {
+  margin: 0 0.5rem;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
 .nav-list {
   display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  flex-wrap: wrap;
+  list-style: none;
 }
 
 .nav-items {
-  margin: 0 10px;
-}
-
-.nav-link, .nav-contact {
-  text-decoration: none;
-  color: white;
-  font-family: 'Lugrasimo-Regular';
-  transition: color 0.3s;
+  margin-left: 2rem;
 }
 
 .nav-link {
-  font-size: 16px;
-}
-
-.nav-contact {
-  font-size: 20px;
-  padding: 5px 15px;
-}
-
-
-
-.nav-item {
-  position: relative; 
-}
-
-.nav-item:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: #fff;
   text-decoration: none;
-  display: block;
-  text-align: left;
+  font-size: 1rem;
+  transition: color 0.3s;
 }
 
+.nav-link:hover,
+.nav-link.active {
+  color: #ccc;
+}
 
-
-
+/* Responsive styles */
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    padding: 10px 0;
+  .menu-toggle {
+    display: block;
   }
 
-  .nav-name {
-    margin-bottom: 10px; 
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+  .navbar{
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .nav-list {
     flex-direction: column;
-    align-items: center;
+    width: 100%;
   }
 
   .nav-items {
-    margin: 5px 0;  
+    margin: 1rem 0;
   }
-
-  .nav-link, .nav-contact {
-    font-size: 14px;  
-}
 }

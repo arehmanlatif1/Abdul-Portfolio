@@ -1,31 +1,70 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import left from "../../Icons/icons8-left-2-50.png";
 import right from "../../Icons/icons8-right-2-50.png";
 import "./Navbar.css";
 
 function Navbar() {
+  const [activeLink, setActiveLink] = useState('');
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const onUpdateActiveLink = (value) => {
+    setActiveLink(value);
+  };
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div className="nav-container">
+    <div className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar">
-        <NavLink className="nav-name" to="/">
+        <NavLink className="nav-name" to="/" onClick={() => onUpdateActiveLink('/')}>
           <img className="icon-right" src={left} alt="icon" />
           Abdul Rehman
           <img className="icon-left" src={right} alt="icon" />
         </NavLink>
-        <nav>
-        <ul className="nav-list">
-          <li className="nav-items"><a className="nav-link" href="#skills">Skills</a></li>
-          <li className="nav-items"><a className="nav-link" href="#project">Project</a></li>
-          <li className="nav-items"><a className="nav-link" href="#education">Education</a></li>
-          <li className="nav-items"><a className="nav-link" href="#experience">Experience</a></li>
-          <li className="nav-items"><a className="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <button className="menu-toggle" onClick={toggleMenu}>
+          ☰
+        </button>
+        <nav className={`nav-menu ${menuOpen ? 'open' : ''}`}>
+          <ul className="nav-list">
+            <li className="nav-items">
+              <a className={`nav-link ${activeLink === 'skills' ? 'active' : ''}`} href="#skills" onClick={() => onUpdateActiveLink('skills')}>Skills</a>
+            </li>
+            <li className="nav-items">
+              <a className={`nav-link ${activeLink === 'project' ? 'active' : ''}`} href="#project" onClick={() => onUpdateActiveLink('project')}>Project</a>
+            </li>
+            <li className="nav-items">
+              <a className={`nav-link ${activeLink === 'education' ? 'active' : ''}`} href="#education" onClick={() => onUpdateActiveLink('education')}>Education</a>
+            </li>
+            <li className="nav-items">
+              <a className={`nav-link ${activeLink === 'experience' ? 'active' : ''}`} href="#experience" onClick={() => onUpdateActiveLink('experience')}>Experience</a>
+            </li>
+            <li className="nav-items">
+              <a className={`nav-link ${activeLink === 'contact' ? 'active' : ''}`} href="#contact" onClick={() => onUpdateActiveLink('contact')}>Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      
     </div>
   );
 }
 
 export default Navbar;
+

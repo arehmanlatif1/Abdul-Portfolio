@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    margin-top: 1vh;  
+    margin-top: 25vh;  
     width: 90vw;       
     box-sizing: border-box;
 }
@@ -96,7 +96,9 @@ hr {
         margin: 1rem auto; 
     }
     .download-btn{
-        width: auto;
+        width: 7rem;
+        font-size: 1rem;
+        align-items: center;
     }
 }
 
