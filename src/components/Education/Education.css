@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
 }
 .edu-header {
   text-align: center;
@@ -44,17 +42,33 @@
 .education-list {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
 }
 
 .education-item {
   background: white;
-  padding: 20px;
+  padding: 30px 30px 30px 30px;
   margin: 10px;
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+  height: 20vh;
+  width: 40vh;
+  
+}
+.edu-title{
+
 }
 
-/* @media (max-width : 768px) {
-    .education-item {
-      width: 100%;
+@media (max-width : 768px) {
+  .edu-header{
+    font-size: 30px;
+  }
+  .edu-title{
+
+  }  
+  .education-list {
+    display: flex;
+    flex-direction: column;
     }
-  } */
+  }

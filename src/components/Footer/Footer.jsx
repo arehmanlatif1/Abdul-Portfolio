@@ -4,8 +4,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function Footer() {
   return (
     <footer>
-      <div className="footerContainer">
-        <div className="socialIcons">
+      <div className="footer-container">
+        <div className="social-icons">
           <a href="https://www.linkedin.com/in/abdulrehmanlatif1/"><i className="fa-brands fa-linkedin"></i></a>
           <a href="https://github.com/arehmanlatif1"><i className="fa-brands fa-github"></i></a>
           <a href="#"><i className="fa-brands fa-facebook"></i></a>
@@ -13,7 +13,7 @@ function Footer() {
           <a href="#"><i className="fa-brands fa-twitter"></i></a>
 
         </div>
-        <div className="footerNav">
+        <div className="footer-nav">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -23,7 +23,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="footerBottom">
+      <div className="footer-bottom">
         <p>Copyright &copy;2023; Designed by <span className="designer">Abdul</span></p>
       </div>
     </footer>

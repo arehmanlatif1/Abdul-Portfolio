@@ -3,12 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-@font-face {
-  font-family: 'Autography-DOLnW';
-  src: url('../../../public/Fonts/Autography-DOLnW.otf');
-}
-
 .nav-container {
   width: 100%;
   background-color:#312ef9;

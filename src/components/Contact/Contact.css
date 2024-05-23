@@ -26,41 +26,32 @@
 }
 
 .contact-main {
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .con-form-container {
-  display: flex;
-  justify-content: top;
-  flex-direction: column;
-  align-items: center;
-  height: auto; 
-  box-sizing: border-box;
-  margin-top: 10vh;
-  overflow: auto;
 }
 
 .con-form {
   display: flex;
   flex-direction: column;
-  width: 30vw;
-  height: auto; 
-  margin: 0 0 15vh 0;
+  width: 50vw;
+  height: auto;
+  margin: 30px 15px 30px 15px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
 }
 
 .con-input {
-  height: 4.5vh;
+  height: 5.5vh;
   border: 2px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 10px;
-  padding: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  padding: 20px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   transition: border-color 0.3s ease;
 }
 
@@ -75,18 +66,30 @@
   color: white;
   font-size: larger;
   margin-top: 3rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
-.con-message {
+.con-message p {
   padding: 20px;
   margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .con-msg {
   color: rgb(155, 151, 151);
   font-size: 1.5rem;
-  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+.contact-text {
+  color: rgb(0, 0, 0);
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   text-align: center;
 }
 
@@ -95,6 +98,7 @@
   font-weight: 900;
   font-family: "Roboto-Thin";
   text-align: center;
+  margin-top: 3rem;
 }
 
 .italic {
@@ -104,25 +108,29 @@
 .con-items {
   font-size: 1.5rem;
   color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
 }
-
-.con-item-div ul li a {
-  margin: 20px;
+.con-item-div{
+  text-align: center;
+}
+.con-item-div a {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1rem;
   color: #000;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: inline-block;
+  margin-bottom: 5rem;
 }
 
 .social-btns {
-  display: flex;
-  justify-content: center;
-}
-
-.con-items li {
   text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 2em;
+  color: black;
+  opacity: 0, 9;
 }
 
 textarea {
@@ -138,9 +146,11 @@ textarea {
 }
 
 .con-label {
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-family: monospace;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 @media (max-width: 1200px) {
@@ -151,12 +161,19 @@ textarea {
   .con-input-button {
     width: 20vw;
   }
+  /* .con-item-div a{
+    margin-left: 7rem;
+  } */
 }
 
 @media (max-width: 768px) {
   .contact-titile {
     font-size: 3rem;
     margin-top: 8rem;
+  }
+  .contact-main {
+    display: flex;
+    flex-direction: column;
   }
 
   .con-form {
@@ -180,9 +197,11 @@ textarea {
   .contact-titile {
     font-size: 2rem;
     margin-top: 5rem;
-    
   }
-
+  .contact-main {
+    display: flex;
+    flex-direction: column;
+  }
   .con-form {
     width: 70vw;
   }
@@ -201,10 +220,11 @@ textarea {
 
   .social-btns {
     flex-direction: column;
+    margin: 0;
   }
 
-  .con-item-div ul {
-    flex-direction: column;
+  .con-item-div {
+    text-align: center;
   }
 
   .con-items {

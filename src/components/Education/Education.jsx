@@ -16,12 +16,13 @@ function Education() {
         <span>EDUCATION</span>
         </h2>
       <div className="education-list">
-        <Lottie animationData={edu}  loop={true} />
+      <Lottie animationData={edu}  loop={true} style={{ width: "20rem" }}/>
+
                 {educations.map((education) => (
                     <div key={education.id} className="education-item">
-                        <h3>{education.title}</h3>
-                        <p>{education.institution}</p>
-                        <p>{education.duration}</p>
+                        <h3 className="edu-title">{education.title}</h3>
+                        <p className="edu-paragraph">{education.institution}</p>
+                        <p className="edu-date">{education.duration}</p>
                         </div>
                    
                 ))}
