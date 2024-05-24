@@ -2,11 +2,6 @@
   margin: 0;
   padding: 0;
 }
-.project-container {
-  width: 100%;
-  padding: 20px;
-}
-
 .project-header {
   text-align: center;
   margin-top: 150px;
@@ -18,7 +13,7 @@
 }
 .project-header span {
   background-color: rgb(255, 255, 255);
-  font-family: "Lugrasimo-Regular", sans-serif;
+  font: 45px / 50px Montserrat-Regular, sans-serif;
   padding: 0 10px;
   z-index: 1;
 }
@@ -38,8 +33,9 @@
   flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
+  scrollbar-width: 5rem;
   scrollbar-color: #888 #f1f1f1;
+  margin-left: 2rem;
 }
 
 .section-container {
@@ -65,11 +61,11 @@
 }
 
 .app-container h3 {
-  margin: 20px 0 1px 0 !important;
   color: #454545;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
+  font: 20px / 25px Montserrat-Regular, sans-serif;
 }
 
 .app-img {
@@ -81,21 +77,35 @@
 .app-title {
   margin-top: 10px;
   color: #333;
-  font-size: 1.2rem;
+  font: 20px / 25px Montserrat-Regular, sans-serif;
+  margin-bottom: 3rem;
+  text-align: center;
+
+}
+.app-title a{
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: blue;
+}
+.icon-html{
+  display: inline-block;
 }
 
 .app-description {
   color: #666;
   font-size: 1rem;
   white-space: pre-line;
+  font: 15px / 20px Montserrat-Regular, sans-serif;
+  text-align: center;
 }
 
 .app-icon {
   list-style-type: none;
-  display: flex;
-  justify-content: center;
   margin-top: 15px;
   gap: 10px;
+  font: 10px / 15px Montserrat-Regular, sans-serif;
+  display: inline-block;
+
 }
 
 ul .app-icon li {
@@ -106,8 +116,7 @@ ul .app-icon li {
   background-color: #555;
   border-radius: 50%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 @media (max-width: 768px) {
   .project-main {
@@ -133,7 +142,12 @@ ul .app-icon li {
 
 @media (max-width: 480px) {
   .project-header {
-    font-size: 24px;
+    font-size: 14px;
     margin-top: 10px;
+
+  }
+  .project-header span {
+    font: 20px / 50px Montserrat-Regular, sans-serif;
+
   }
 }

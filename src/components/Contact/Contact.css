@@ -10,7 +10,7 @@
 
 .contact-titile span {
   background-color: rgb(255, 255, 255);
-  font-family: "Lugrasimo-Regular", sans-serif;
+  font: 45px / 50px Montserrat-Regular, sans-serif;
   z-index: 1;
 }
 
@@ -31,10 +31,6 @@
   align-items: center;
   flex-direction: column;
 }
-
-.con-form-container {
-}
-
 .con-form {
   display: flex;
   flex-direction: column;
@@ -64,14 +60,13 @@
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  font-size: larger;
   margin-top: 3rem;
-  font-family: "Roboto", sans-serif;
+  font: 25px / 30px Montserrat-Regular, sans-serif;
 }
 .con-message p {
   padding: 20px;
   margin: 20px;
-  font-family: "Roboto", sans-serif;
+  font: 20px / 25px Montserrat-Regular, sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -79,7 +74,7 @@
 .con-msg {
   color: rgb(155, 151, 151);
   font-size: 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font: 15px / 20px Montserrat-Regular, sans-serif;
   font-weight: 300;
   font-style: normal;
   text-align: center;
@@ -87,7 +82,7 @@
 .contact-text {
   color: rgb(0, 0, 0);
   font-size: 1.3rem;
-  font-family: "Roboto", sans-serif;
+  font: 20px / 25px Montserrat-Regular, sans-serif;
   font-weight: 300;
   font-style: normal;
   text-align: center;
@@ -95,14 +90,19 @@
 
 .con-class {
   font-size: 3rem;
-  font-weight: 900;
-  font-family: "Roboto-Thin";
+  font: 40px / 45px Montserrat-Regular, sans-serif;
   text-align: center;
   margin-top: 3rem;
 }
 
 .italic {
   text-align: center;
+  font: 15px / 20px Montserrat-Regular, sans-serif;
+}
+#social-linkedin{
+  text-align: center;
+  margin-left: 12px;
+  display: flex;
 }
 
 .con-items {
@@ -114,12 +114,9 @@
 }
 .con-item-div a {
   text-decoration: none;
-  font-size: 1rem;
   color: #000;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  font: 17px / 25px Montserrat-Regular, sans-serif;
   display: inline-block;
   margin-bottom: 5rem;
 }
@@ -148,9 +145,7 @@ textarea {
 .con-label {
   margin-top: 2rem;
   font-size: 1.5rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  font: 25px / 30px Montserrat-Regular, sans-serif;
 }
 
 @media (max-width: 1200px) {
@@ -160,6 +155,7 @@ textarea {
 
   .con-input-button {
     width: 20vw;
+    
   }
   /* .con-item-div a{
     margin-left: 7rem;
@@ -182,6 +178,7 @@ textarea {
 
   .con-input-button {
     width: 30vw;
+    font: 15px / 20px Montserrat-Regular, sans-serif;
   }
 
   .con-class {
@@ -204,6 +201,12 @@ textarea {
   }
   .con-form {
     width: 70vw;
+  }
+  .contact-text{
+    font: 15px / 20px Montserrat-Regular, sans-serif;
+  }
+  .con-label{
+    font: 15px / 20px Montserrat-Regular, sans-serif;
   }
 
   .con-input-button {

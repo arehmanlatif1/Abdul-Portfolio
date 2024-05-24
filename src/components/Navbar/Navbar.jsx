@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import left from "../../Icons/icons8-left-2-50.png";
 import right from "../../Icons/icons8-right-2-50.png";
+import togglebtn from "../../gif-files/ToggleBtn.json"
 import "./Navbar.css";
+import Lottie from "lottie-react";
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState('');
@@ -40,7 +42,9 @@ function Navbar() {
           <img className="icon-left" src={right} alt="icon" />
         </NavLink>
         <button className="menu-toggle" onClick={toggleMenu}>
-          ☰
+          {/* ☰ */}
+          <Lottie animationData={togglebtn} style={{ width: "3rem", margin: "10px"}}/>
+
         </button>
         <nav className={`nav-menu ${menuOpen ? 'open' : ''}`}>
           <ul className="nav-list">

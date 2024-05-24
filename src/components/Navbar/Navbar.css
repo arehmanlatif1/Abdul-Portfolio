@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: Agustina;
+  src: url(../../../public/Fonts/Agustina.woff);
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../../../public/Fonts/Montserrat-Regular.ttf);
+}
 .nav-container {
   width: 100%;
   background-color:#312ef9;
@@ -14,7 +22,7 @@
 .nav-name {
   text-decoration: none;
   color: white;
-  font-family: 'Autography-DOLnW';
+  font-family: 'Agustina';
   font-weight: 500;
   font-size: 30px;
 }
@@ -31,7 +39,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  text-align: center;
+  font-family:"Roboto-Thin";
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 .nav-name {
@@ -72,8 +85,8 @@
 .nav-link {
   color: #fff;
   text-decoration: none;
-  font-size: 1rem;
   transition: color 0.3s;
+  font: 19px / 23px Montserrat-Regular, sans-serif;
 }
 
 .nav-link:hover,

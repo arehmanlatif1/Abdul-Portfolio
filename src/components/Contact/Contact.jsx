@@ -59,15 +59,15 @@ const Contact = () => {
           <p className="italic"><i> 📍New York, NY. USA</i></p>
           <div className="con-item-div">
           <a href="https://github.com/arehmanlatif1" className="social-btns">
-                  <Lottie animationData={github} loop={true} style={{ width: "2rem" }} />
+                  <Lottie animationData={github} loop={true} style={{ width: "2.5rem" }} />
                   Github
                 </a>
                 <a  href="https://www.linkedin.com/in/abdulrehmanlatif1/" className="social-btns">
-                  <Lottie animationData={linkedin} loop={true} style={{ width: "3rem" }} />
+                  <Lottie animationData={linkedin} loop={true} id="social-linkedin" style={{ width: "3rem" }} />
                   LinkedIn
                 </a>
                 <a href="mailto:arehmanlatif@gmail.com" className="social-btns">
-                  <Lottie animationData={email} loop={true} style={{ width: "3rem" }}/>
+                  <Lottie animationData={email} loop={true} style={{ width: "4rem" }}/>
                   Email
                 </a>
           </div>

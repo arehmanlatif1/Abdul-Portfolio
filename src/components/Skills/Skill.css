@@ -2,15 +2,6 @@
   margin: 0;
   padding: 0;
 }
-@font-face {
-  font-family: "Roboto-Thin";
-  src: url("../../../public/Fonts/Roboto-Thin.ttf");
-}
-
-@font-face {
-  font-family: "Lugrasimo-Regular";
-  src: url("../../../public/Fonts/Lugrasimo-Regular.ttf");
-}
 
 .tab-header {
   text-align: center;
@@ -24,7 +15,7 @@
 
 .tab-header span {
   background-color: rgb(255, 255, 255);
-  font-family: "Lugrasimo-Regular", sans-serif;
+  font:  45px / 50px Montserrat-Regular, sans-serif;
   z-index: 1;
 }
 
@@ -54,12 +45,12 @@
   font-size: 1.2rem;
   margin-top : 3rem;
   margin-bottom: 5rem;
-  font-family: "Roboto-Thin";
+  font: 20px / 25px Montserrat-Regular, sans-serif;
   /* width: 30vw; */
 
 }
 .skills-slider h2{
-  font-family:"Roboto-Thin";
+  font: 20px / 25px Montserrat-Regular, sans-serif;
   font-size: 3rem;
   font-weight: -500;
   /* margin-left: 10rem; */
@@ -86,7 +77,7 @@
 .icon-container h6 {
   margin-top: 0.5rem;
   font-size: 1rem;
-  font-family: 'Roboto-Thin'
+  font: 20px / 25px Montserrat-Regular, sans-serif;
 }
 
 .icon-container:hover {

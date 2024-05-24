@@ -39,6 +39,7 @@ footer{
 }
 .footer-nav{
   margin: 30px 0;
+  font: 20px / 25px Montserrat-Regular, sans-serif;
 }
 .footer-nav ul{
   display: flex;
@@ -64,6 +65,10 @@ footer{
 }
 .footer-bottom p{
   color: white;
+  font: 20px / 25px Montserrat-Regular, sans-serif;
+}
+.footer-bottom span{
+  font: 20px / 25px Montserrat-Regular, sans-serif;
 }
 .designer{
   opacity: 0.7;
@@ -75,14 +80,20 @@ footer{
 @media (max-width: 700px){
   .footer-nav ul{
       flex-direction: column;
+      font: 15px / 20px Montserrat-Regular, sans-serif;
   } 
   .footer-nav ul li{
       width:100%;
       text-align: center;
       margin: 10px;
+      
   }
   .social-icons a{
       padding: 8px;
       margin: 4px;
+      font: 15px / 20px Montserrat-Regular, sans-serif;
+  }
+  .footer-bottom p{
+    font: 15px / 20px Montserrat-Regular, sans-serif;
   }
 }
