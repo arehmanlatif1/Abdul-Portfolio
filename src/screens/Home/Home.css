@@ -21,6 +21,7 @@
 .home-ar{
     font-size: 2.5rem;
     font-family: Montserrat-Regular, sans-serif;
+    /* background-color: black; */
 }
 .home-ar{
     font: 40px / 45px Montserrat-Regular, sans-serif;
@@ -39,17 +40,18 @@
 
 .content {
     color: rgb(0, 0, 0);
-    /* background-color: rgba(213, 213, 222, 0.5); */
     padding: 20px;
     width: 50%;    
     margin-left: 30px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    background-color: #c9dafc;
+    
 }
 .summary{
     font: 19px / 23px Montserrat-Regular, sans-serif;
     font-size: 20px;
     line-height: 2rem;
-    color: gray;
+    color: rgb(88, 86, 86);
 }
 
 hr {
@@ -66,7 +68,7 @@ hr {
 .download-btn {
     width: 200px;
     height: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color:rgb(59 95 195);
     position: relative;
     display: flex;
     align-items: center;
@@ -86,7 +88,7 @@ hr {
     width: 0;
     height: 0;
     border-top: 2px solid rgb(255, 255, 255);
-    border-right: 2px solid #312ef9;
+    border-right: 2px solid #ff6600;
     animation: border-top-right 3s infinite alternate;
   }
   
@@ -105,7 +107,7 @@ hr {
     width: 0;
     height: 0;
     border-bottom: 2px solid rgb(255, 255, 255);
-    border-left: 2px solid #312ef9;
+    border-left: 2px solid #ff5900;
     animation: border-bottom-left 3s infinite alternate;
   }
   @keyframes border-bottom-left {

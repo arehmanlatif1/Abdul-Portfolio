@@ -6,6 +6,8 @@ import educationicon from "../../gif-files/edu.json"
 import { BsPersonWorkspace } from "react-icons/bs";
 import generalassembly from "../../Icons/GA.png"
 import usaedu from "../../Icons/usa.png"
+
+
 function Education() {
 
   const educations = [

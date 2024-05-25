@@ -19,6 +19,7 @@ function Home() {
   return (
     <div className="home-container">
       <div className="abdul-portfolio">
+        {/* <div className="animation"> */}
         <div className="content">
           <h2 className="hey"> Hi all,
             <Lottie animationData={hand}  style={{ width: "6rem", display: "inline-block", verticalAlign: "middle"  }}/>
@@ -48,6 +49,7 @@ function Home() {
             </button> */}
 
         </div>
+        {/* </div> */}
         {/* <img className="img-ar" src={abdul} alt="ar" /> */}
         <Lottie animationData={prof} loop={true} /> 
         {/* <Lottie animationData={profile} /> */}

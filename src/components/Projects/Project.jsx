@@ -4,16 +4,17 @@ import htmlicon from "../../gif-files/Html.json";
 import styling from "../../gif-files/Cssheet.json";
 import js from "../../gif-files/Javascript.json";
 import github from "../../gif-files/Github.json";
-import ec from "../../gif-files/CurrencyEx.json";
+import ec from "../../gif-files/Currencyex.json";
 import cloudy from "../../gif-files/Clouds.json";
 import rektgame from "../../gif-files/Games.json";
 import product from "../../gif-files/Product.json";
+import cdpal from "../../gif-files/Codepal.json"
 import "./Project.css";
 
 function Project() {
   return (
     <div className="project-container">
-      <h2 className="project-header" style={{ font: "19px / 23px Montserrat, sans-serif;" }}>
+      <h2 className="project-header">
         <span>TECHNICAL PROJECTS</span>
       </h2>
 
@@ -66,7 +67,7 @@ function Project() {
                 <Lottie
                   animationData={js}
                   loop={true}
-                  style={{ width: "3.5rem" }}
+                  style={{ width: "3.5rem", margin: "3px" }}
                 />
                 Javascript
                 </a>
@@ -82,7 +83,7 @@ function Project() {
               <a href="https://weather-app-caramel.netlify.app/">" Weather App "</a>
             </h3>
             <p className="app-description">
-              Developed a dynamic weather application using HTML, CSS, and JavaScript, fetching real-time weather data from an API.
+              Developed a dynamic weather application using HTML, CSS, React and JavaScript, fetching real-time weather data from an API.
               {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio impedit numquam possimus ipsam, deserunt iusto natus
               qui consequuntur eum inventore, ipsa quidem? Deleniti sunt ab
@@ -110,7 +111,7 @@ function Project() {
                 <Lottie
                   animationData={js}
                   loop={true}
-                  style={{ width: "3.5rem" }}
+                  style={{ width: "3.5rem", margin: "3px" }}
                 />
                 Javascript
               </a>
@@ -165,10 +166,10 @@ function Project() {
             </div>
           </div>
         </section>
-
+                                                        {/* Code.pal */}
         <section className="section-container">
           <div className="app-container">
-            <Lottie animationData={ec} loop={true} />
+            <Lottie animationData={cdpal} loop={true} />
             <h3 className="app-title">
               <a href="https://dev--jovial-macaron-61c636.netlify.app/">" Code.Pal "</a>
               </h3>
@@ -248,7 +249,7 @@ function Project() {
                 <Lottie
                   animationData={js}
                   loop={true}
-                  style={{ width: "3.5rem" }}
+                  style={{ width: "3.5rem", margin: "3px" }}
                 />
                 Javascript
               </a>
