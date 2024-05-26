@@ -7,6 +7,7 @@ import cloudy from "../../gif-files/Clouds.json";
 import rektgame from "../../gif-files/Games.json";
 import product from "../../gif-files/Product.json";
 import cdpal from "../../gif-files/Codepal.json"
+import currencyex from '../../gif-files/Currencyex.json'
 import "./Project.css";
 
 function Project() {
@@ -21,7 +22,7 @@ function Project() {
 
         <section className="section-container">
           <div className="app-container">
-            {/* <Lottie animationData={ec} loop={true} /> */}
+            <Lottie animationData={currencyex} loop={true} />
             <h3 className="app-title">
               <a href="https://exchangecurrencies.netlify.app/">
                 " Currency Exchange "
