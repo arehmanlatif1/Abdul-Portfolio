@@ -3,15 +3,11 @@ import Experience from "../../components/Experience/Experience.jsx";
 import Education from "../../components/Education/Education.jsx";
 import Project from "../../components/Projects/Project.jsx";
 import Contact from "../../components/Contact/Contact.jsx";
-import abdul from "../../Icons/ar.jpeg";
+// import abdul from "../../Icons/ar.jpeg";
 import Skills from "../../components/Skills/Skill.jsx";
-import button from "../../gif-files/Downcloud.json"
 import prof from "../../gif-files/DesktopW.json"
-import profile from "../../gif-files/Profile.json"
 import Lottie from "lottie-react";
 import hand from "../../gif-files/Waving.json"
-import desk from  "../../gif-files/Desktop.json"
-import deskdesign from "../../gif-files/DesktopDesign.json"
 import "./Home.css";
 import Footer from "../../components/Footer/Footer.jsx";
 
@@ -19,7 +15,6 @@ function Home() {
   return (
     <div className="home-container">
       <div className="abdul-portfolio">
-        {/* <div className="animation"> */}
         <div className="content">
           <h2 className="hey"> Hi all,
             <Lottie animationData={hand}  style={{ width: "6rem", display: "inline-block", verticalAlign: "middle"  }}/>
@@ -35,26 +30,14 @@ function Home() {
             target="_blank"
             download="Resume_Abdul_Rehman.pdf"
           >
-            {/* <Lottie animationData={button} loop={true} style={{width: "10rem",   } } /> */}
             Resume
           </a>
           </button>
           </div>
-          
-
-          {/* <button className="hire-btn">
-            <a href="https://www.linkedin.com/in/abdulrehmanlatif1/">
-            Hire Me
-            </a>
-            </button> */}
-
         </div>
-        {/* </div> */}
-        {/* <img className="img-ar" src={abdul} alt="ar" /> */}
+
         <Lottie animationData={prof} loop={true} /> 
-        {/* <Lottie animationData={profile} /> */}
-        {/* <Lottie animationData={desk} style={{ width: "50rem" }} /> */}
-        {/* <Lottie animationData={deskdesign} /> */}
+
        
       </div>
 

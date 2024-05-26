@@ -2,8 +2,6 @@ import React from "react";
 import "./Education.css";
 import Lottie from "lottie-react";
 import edu from "../../gif-files/Education.json"
-import educationicon from "../../gif-files/edu.json"
-import { BsPersonWorkspace } from "react-icons/bs";
 import generalassembly from "../../Icons/GA.png"
 import usaedu from "../../Icons/usa.png"
 
@@ -38,44 +36,3 @@ function Education() {
 }
 
 export default Education;
-
-
-
-
-
-
-{/* <h2 className="edu-header">
-        <span>Education</span>
-      </h2>
-
-      <div  className="edu-container">
-        <h4>Graduated | 2024</h4>
-        <h3>General Assembly</h3>
-        <h2>Software Engineer Immersive</h2>
-
-        <p>
-          <ul>
-            <li>
-              Technologies Learned: C++, Java, HTML, CSS, Javascript, Git, SQL
-            </li>
-            <li>Used Version Control tools such as: Visual Studio, GitHub</li>
-          </ul>
-        </p>
-      </div>
-      <div className="edu-container">
-        <h3>University of South Asia, PK</h3>
-        <h4>2015-2019</h4>
-        <h5>Bachelor, Computer Science</h5>
-        
-        <p>
-        <h6>DevOps / Technologist</h6>
-          <ul>
-            <li>
-              Technologies Learned: C++, HTML, CSS, Java, OOP, SQL, Android
-              Studio.
-            </li>
-            <li>Used Version Control tools such as: Visual Studio, Eclipse,</li>
-            <li>Adobe Tools: Photoshop, Premiere, Illustrator, Acrobat.</li>
-          </ul>
-        </p>
-      </div> */}
