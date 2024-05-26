@@ -3,7 +3,6 @@ import Lottie from "lottie-react";
 import htmlicon from "../../gif-files/Html.json";
 import styling from "../../gif-files/Cssheet.json";
 import js from "../../gif-files/Javascript.json";
-import ec from "../../gif-files/Currencyex.json";
 import cloudy from "../../gif-files/Clouds.json";
 import rektgame from "../../gif-files/Games.json";
 import product from "../../gif-files/Product.json";
@@ -22,7 +21,7 @@ function Project() {
 
         <section className="section-container">
           <div className="app-container">
-            <Lottie animationData={ec} loop={true} />
+            {/* <Lottie animationData={ec} loop={true} /> */}
             <h3 className="app-title">
               <a href="https://exchangecurrencies.netlify.app/">
                 " Currency Exchange "
