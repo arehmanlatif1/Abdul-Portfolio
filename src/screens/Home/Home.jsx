@@ -36,7 +36,7 @@ function Home() {
           </div>
         </div>
 
-        <Lottie animationData={prof} loop={true} /> 
+        <Lottie animationData={prof} loop={true}  id="ar-lottie"/> 
 
        
       </div>

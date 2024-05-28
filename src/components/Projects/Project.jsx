@@ -30,10 +30,6 @@ function Project() {
             </h3>
             <p className="app-description">
               Utilized an API link to fetch the data that convert the currencies with real-time rates for seamless global transactions.
-              {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-              aliquid harum, iure voluptate autem, consequatur, cupiditate animi
-              quam soluta modi aliquam sit recusandae ab cumque quas quis ut
-              nobis dicta! */}
             </p>
 
             {/* <div className="lang-icons"> 
@@ -46,35 +42,24 @@ function Project() {
 
             <div className="app-icon">
                 <a className="icon-html">
-                <Lottie
-                  animationData={htmlicon}
-                  loop={true}
-                  style={{ width: "3.5rem" }} 
-                />
+                <Lottie animationData={htmlicon} loop={true} style={{ width: "3.5rem" }} />
                 HTML
                 </a>
              
               <a className="icon-html">
-                <Lottie
-                  animationData={styling}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+                <Lottie animationData={styling} loop={true} style={{ width: "3.5rem" }} />
                 CSS
                 </a>
                 <a className="icon-html">
-                <Lottie
-                  animationData={js}
-                  loop={true}
-                  style={{ width: "3.5rem", margin: "3px" }}
-                />
+                <Lottie animationData={js} loop={true} style={{ width: "3.5rem", margin: "3px" }}/>
                 Javascript
                 </a>
             </div>
           </div>
         </section>
 
-        {/* Weather App Project */}
+                                                        {/* Weather App Project */}
+
         <section className="section-container">
           <div className="app-container">
             <Lottie animationData={cloudy} />
@@ -83,35 +68,19 @@ function Project() {
             </h3>
             <p className="app-description">
               Developed a dynamic weather application using HTML, CSS, React and JavaScript, fetching real-time weather data from an API.
-              {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio impedit numquam possimus ipsam, deserunt iusto natus
-              qui consequuntur eum inventore, ipsa quidem? Deleniti sunt ab
-              facere vitae rem aspernatur enim. */}
             </p>
 
             <div className="app-icon">
             <a className="icon-html">
-              <Lottie
-                  animationData={htmlicon}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+              <Lottie animationData={htmlicon} loop={true} style={{ width: "3.5rem" }}/>
                 React
                 </a>
               <a className="icon-html" >
-                <Lottie
-                  animationData={styling}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+                <Lottie animationData={styling} loop={true} style={{ width: "3.5rem" }}/>
                 CSS
               </a>
               <a className="icon-html">
-                <Lottie
-                  animationData={js}
-                  loop={true}
-                  style={{ width: "3.5rem", margin: "3px" }}
-                />
+                <Lottie animationData={js} loop={true} style={{ width: "3.5rem", margin: "3px" }}/>
                 Javascript
               </a>
              
@@ -131,35 +100,19 @@ function Project() {
               Spearheaded the development of REK'T, a comprehensive gaming
               review website featuring front-end and back-end functionalities.
               Utilized JSON data for comprehensive game details and images.
-              {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
-              fuga dolore similique, unde optio numquam qui quaerat molestiae
-              natus neque ullam eaque architecto illo quo, perspiciatis
-              laboriosam vitae autem? Similique! */}
             </p>
 
             <div className="app-icon">
               <a className="icon-html">
-                <Lottie
-                  animationData={styling}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+                <Lottie animationData={styling} loop={true} style={{ width: "3.5rem" }}/>
                 CSS
               </a>
               <a className="icon-html">
-                <Lottie
-                  animationData={js}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+                <Lottie animationData={js} loop={true} style={{ width: "3.5rem" }}/>
                 Javascript
               </a>
               <a className="icon-html">
-              <Lottie
-                  animationData={htmlicon}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+              <Lottie animationData={htmlicon} loop={true} style={{ width: "3.5rem" }}/>
                 React
               </a>
             </div>
@@ -174,34 +127,18 @@ function Project() {
               </h3>
             <p className="app-description">
               We create a freeleance website, where a User can hire a delveloper. This website have SignUp, SignIn and Signout. A developer can make different profile than Users. Developer can showcase there projects which users can give a like.
-              {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores cupiditate deserunt quae omnis minus vero nostrum?
-              Necessitatibus saepe, asperiores debitis sit magni eveniet tenetur
-              quo rem harum impedit tempore velit? */}
             </p>
 
             <div className="app-icon">
               <a className="icon-html">
-              <Lottie
-                  animationData={htmlicon}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+              <Lottie animationData={htmlicon} loop={true} style={{ width: "3.5rem" }}/>
                 React</a>
               <a className="icon-html">
-                <Lottie
-                  animationData={js}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+                <Lottie animationData={js} loop={true} style={{ width: "3.5rem" }}/>
                 Python
               </a>
               <a className="icon-html">
-              <Lottie
-                  animationData={htmlicon}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+              <Lottie animationData={htmlicon} loop={true} style={{ width: "3.5rem" }}/>
                 Django</a>
             </div>
           </div>
@@ -211,45 +148,26 @@ function Project() {
                                                       
         <section className="section-container">
           <div className="app-container">
-            <Lottie
-              animationData={product}
-              loop={true}
-              style={{ width: "15rem", height: "17.5rem" }}
-            />
+            <Lottie animationData={product} loop={true} style={{ width: "15rem", height: "17.5rem" }}/>
+            
             <h3 className="app-title">
               <a href="https://product-api-project.netlify.app/">" Product API "</a>
             </h3>
             <p className="app-description">
               Create a Departmental store application, Using the  HTML, CSS, REACT and Javascript.
-              {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Suscipit, aliquid earum veniam enim nihil reiciendis labore animi,
-              facilis doloremque nemo nesciunt minus quod inventore, ipsam odit.
-              Eaque quasi molestiae possimus? */}
             </p>
 
             <div className="app-icon">
             <a className="icon-html">
-              <Lottie
-                  animationData={htmlicon}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+              <Lottie animationData={htmlicon} loop={true} style={{ width: "3.5rem" }}/>
                 React
                 </a>
               <a className="icon-html">
-                <Lottie
-                  animationData={styling}
-                  loop={true}
-                  style={{ width: "3.5rem" }}
-                />
+                <Lottie animationData={styling} loop={true} style={{ width: "3.5rem" }}/>
                 CSS
               </a>
               <a className="icon-html">
-                <Lottie
-                  animationData={js}
-                  loop={true}
-                  style={{ width: "3.5rem", margin: "3px" }}
-                />
+                <Lottie animationData={js} loop={true} style={{ width: "3.5rem", margin: "3px" }}/>
                 Javascript
               </a>
 
