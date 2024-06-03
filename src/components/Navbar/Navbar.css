@@ -19,13 +19,7 @@
   z-index: 1000;
   transition: background-color 0.3s;
 }
-.nav-name {
-  text-decoration: none;
-  color: white;
-  font-family: 'Agustina';
-  font-weight: 500;
-  font-size: 30px;
-}
+
 .nav-container.scrolled {
   background-color:#312ef9;
 }
@@ -45,14 +39,19 @@
   font-weight: 500;
   margin-bottom: 1rem;
   margin-right: 1rem;
+  margin-left: 1rem;
 }
-
 .nav-name {
-  color: #fff;
-  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-family: 'Agustina';
+  font-weight: 500;
+  margin-top: 1rem;
+  font-size: 1.6rem;
   text-decoration: none;
   display: flex;
   align-items: center;
+
 }
 
 .nav-name img {

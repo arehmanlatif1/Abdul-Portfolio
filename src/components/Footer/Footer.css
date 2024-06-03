@@ -80,7 +80,7 @@ footer{
 @media (max-width: 700px){
   .footer-nav ul{
       flex-direction: column;
-      font: 15px / 20px Montserrat-Regular, sans-serif;
+      font: 15px / 12px Montserrat-Regular, sans-serif;
   } 
   .footer-nav ul li{
       width:100%;

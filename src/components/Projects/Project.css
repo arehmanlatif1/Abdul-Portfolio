@@ -20,7 +20,7 @@
   right: 0;
   bottom: 50%;
   height: 2px;
-  background-color: #000;
+  background-color:#0073e6;
   z-index: -1;
 }
 
@@ -117,25 +117,22 @@ ul .app-icon li {
   flex-direction: column;
 }
 @media (max-width: 768px) {
-  .project-main {
-    /* flex-wrap: wrap; */
-  }
 
   .section-container {
     flex: 0 0 100%;
     width: 100%;
-    margin-right: 0;
+    /* margin-right: 0; */
     margin-bottom: 20px;
   }
   .app-container {
     padding: 10px;
   }
 
-  .app-title,
+  /* .app-title,
   .app-description,
   .app-container h3 {
     font-size: smaller;
-  }
+  } */
 }
 
 @media (max-width: 480px) {

@@ -14,7 +14,7 @@ function Skill() {
       </h3>
       <div className="skills-container">
       <div className="lottie-container">
-        <Lottie animationData={skillsdesing} id="lottie-skills" loop={true} style={{ width: "50rem" }}/>
+        <Lottie animationData={skillsdesing} id="lottie-skills" loop={true} />
       </div>
 
       <div className="skills-slider">

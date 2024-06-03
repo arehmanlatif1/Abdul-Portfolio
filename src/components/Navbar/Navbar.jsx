@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import left from "../../Icons/icons8-left-2-50.png";
-import right from "../../Icons/icons8-right-2-50.png";
-import togglebtn from "../../gif-files/ToggleBtn.json"
+import togglebtn from "../../gif-files/ToggleBtn.json";
 import "./Navbar.css";
 import Lottie from "lottie-react";
 
@@ -27,6 +25,7 @@ function Navbar() {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    setMenuOpen(false);
   };
 
   const toggleMenu = () => {
@@ -37,14 +36,10 @@ function Navbar() {
     <div className={`nav-container ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar">
         <NavLink className="nav-name" to="/" onClick={() => onUpdateActiveLink('/')}>
-          <img className="icon-right" src={left} alt="icon" />
           Abdul Rehman
-          <img className="icon-left" src={right} alt="icon" />
         </NavLink>
         <button className="menu-toggle" onClick={toggleMenu}>
-          {/* ☰ */}
           <Lottie animationData={togglebtn} style={{ width: "3rem", margin: "10px"}}/>
-
         </button>
         <nav className={`nav-menu ${menuOpen ? 'open' : ''}`}>
           <ul className="nav-list">
@@ -71,4 +66,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
 

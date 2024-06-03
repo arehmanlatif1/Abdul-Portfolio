@@ -8,9 +8,9 @@ function Footer() {
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/abdulrehmanlatif1/"><i className="fa-brands fa-linkedin"></i></a>
           <a href="https://github.com/arehmanlatif1"><i className="fa-brands fa-github"></i></a>
-          <a href="#"><i className="fa-brands fa-facebook"></i></a>
-          <a href="#"><i className="fa-brands fa-instagram"></i></a>
-          <a href="#"><i className="fa-brands fa-twitter"></i></a>
+          <a href="https://www.facebook.com/"><i className="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i className="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/"><i className="fa-brands fa-x"></i></a>
 
         </div>
         <div className="footer-nav">
@@ -24,7 +24,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>Copyright &copy;2023; Designed by <span className="designer">Abdul</span></p>
+        <p>Copyright &copy;2023. Designed by <span className="designer">Abdul</span></p>
       </div>
     </footer>
   );

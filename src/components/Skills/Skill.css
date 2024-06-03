@@ -41,6 +41,7 @@
   text-align: center;
   padding: 2rem;
   margin-top : 3rem;
+  margin-left: 3rem;
 
 }
 .skills-slider p {
@@ -48,6 +49,7 @@
   margin-top : 3rem;
   margin-bottom: 5rem;
   font: 20px / 25px Montserrat-Regular, sans-serif;
+  color: gray;
   /* width: 30vw; */
 
 }
@@ -85,6 +87,10 @@
 .icon-container:hover {
   color: #0073e6;
 }
+
+#lottie-skills{
+  margin-top: 5rem;
+}
 @media (max-width: 768px) {
   .tab-header {
     margin-top: 10vh;
@@ -98,10 +104,11 @@
   #lottie-skills{
     width: 100%;
     max-width: 30rem;
+    margin-left: 10rem;
   }
 
   .skills-slider h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .skills-slider p {
@@ -116,6 +123,7 @@
   #lottie-skills{
     width: 100%;
     max-width: 20rem;
+    margin-left: 2rem;
   }
   .icon-container h6 {
     margin-top: 0.5rem;
@@ -123,6 +131,9 @@
   }
   #lol-icons{
     width: 1.5rem;
+  }
+  .skills-slider {
+    margin-left: 0;
   }
 
 }

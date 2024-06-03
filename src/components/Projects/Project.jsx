@@ -18,7 +18,7 @@ function Project() {
       </h2>
 
       <div className="project-main">
-        {/* Currency Exchange Project */}
+                                                        {/* Currency Exchange Project */}
 
         <section className="section-container">
           <div className="app-container">
@@ -89,7 +89,7 @@ function Project() {
         </section>
 
  
-        {/* REK'T Project */}
+                                                        {/* REK'T Project */}
         <section className="section-container">
           <div className="app-container">
             <Lottie animationData={rektgame} />
@@ -144,7 +144,7 @@ function Project() {
           </div>
         </section>
 
-                                                             {/* Product API */}
+                                                        {/* Product API */}
                                                       
         <section className="section-container">
           <div className="app-container">

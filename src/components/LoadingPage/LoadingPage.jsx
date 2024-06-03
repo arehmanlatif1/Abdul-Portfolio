@@ -2,6 +2,7 @@ import React from 'react'
 import "./LoadingPage.css"
 import Lottie from 'lottie-react';
 import loadingAnimation from "../../gif-files/Loading.json"
+// import bottom from "../../gif-files/Bottom.json"
 
 const LoadingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LoadingPage = () => {
         <span className="typing-animation">...</span>
         </p>
       <h2 className='loading-title'>Abdul Rehman</h2>
+      {/* <Lottie  animationData={bottom}/>  */}
     </div>
   );
 };
