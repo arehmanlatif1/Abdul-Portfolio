@@ -10,12 +10,12 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate an async operation like data fetching
+    
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // 3 seconds delay
+    }, 3000); 
 
-    return () => clearTimeout(timer); // Cleanup timer
+    return () => clearTimeout(timer); 
   }, []);
 
   return (
