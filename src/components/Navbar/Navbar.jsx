@@ -52,9 +52,9 @@ function Navbar() {
             <li className="nav-items">
               <a className={`nav-link ${activeLink === 'education' ? 'active' : ''}`} href="#education" onClick={() => onUpdateActiveLink('education')}>Education</a>
             </li>
-            <li className="nav-items">
+            {/* <li className="nav-items">
               <a className={`nav-link ${activeLink === 'experience' ? 'active' : ''}`} href="#experience" onClick={() => onUpdateActiveLink('experience')}>Experience</a>
-            </li>
+            </li> */}
             <li className="nav-items">
               <a className={`nav-link ${activeLink === 'contact' ? 'active' : ''}`} href="#contact" onClick={() => onUpdateActiveLink('contact')}>Contact</a>
             </li>
