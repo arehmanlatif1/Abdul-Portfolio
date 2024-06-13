@@ -9,8 +9,8 @@ import usaedu from "../../Icons/usa.png"
 function Education() {
 
   const educations = [
-    { id: 1, title: "Software Engineering", institution: "General Assembly", duration: "2024", image: usaedu },
-    { id: 2, title: "Computer Science", institution: "University of South Asia", duration: "2015 - 2019", image: generalassembly }
+    { id: 1, title: "Software Engineering", institution: "General Assembly", duration: "2024", image:  generalassembly},
+    { id: 2, title: "Computer Science", institution: "University of South Asia", duration: "2015 - 2019", image: usaedu }
 
   ]
 
